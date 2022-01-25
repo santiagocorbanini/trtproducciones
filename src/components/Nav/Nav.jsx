@@ -2,6 +2,7 @@ import '../../css/styles.css'
 
 const Nav = () => {
     return (
+
         <nav className="navbar navbar-expand-lg bg-secondary text-uppercase fixed-top" id="mainNav">
             <div className="container">
                 <a className="navbar-brand" href="#page-top">Start Bootstrap</a>
@@ -18,6 +19,7 @@ const Nav = () => {
                 </div>
             </div>
         </nav>
+
     );
 };
 
