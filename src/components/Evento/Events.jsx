@@ -1,4 +1,8 @@
 
+import imagen1 from '../../assets/img/gira2022.jpg';
+import imagen2 from '../../assets/img/distribucion.jpg';
+import imagen3 from '../../assets/img/estudios.jpg';
+
 const Events = () => {
   return (
     <section className="page-section portfolio bg-secundary" id="events">
@@ -19,7 +23,7 @@ const Events = () => {
                             <div className="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
                                 <div className="portfolio-item-caption-content text-center text-white"><i className="fas fa-plus fa-3x"></i></div>
                             </div>
-                            <img className="img-fluid" src="assets/img/portfolio/cabin.png" alt="..." />
+                            <img className="img-fluid" src={imagen1} alt="..." />
                         </div>
                     </div>
                     {/*<!-- Portfolio Item 2 -->*/}
@@ -28,7 +32,7 @@ const Events = () => {
                             <div className="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
                                 <div className="portfolio-item-caption-content text-center text-white"><i className="fas fa-plus fa-3x"></i></div>
                             </div>
-                            <img className="img-fluid" src="assets/img/portfolio/cake.png" alt="..." />
+                            <img className="img-fluid" src={imagen2} alt="..." />
                         </div>
                     </div>
                     {/*<!-- Portfolio Item 3 -->*/}
@@ -37,36 +41,10 @@ const Events = () => {
                             <div className="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
                                 <div className="portfolio-item-caption-content text-center text-white"><i className="fas fa-plus fa-3x"></i></div>
                             </div>
-                            <img className="img-fluid" src="assets/img/portfolio/circus.png" alt="..." />
+                            <img className="img-fluid" src={imagen3} alt="..." />
                         </div>
                     </div>
-                    {/*<!-- Portfolio Item 4 -->*/}
-                    <div className="col-md-6 col-lg-4 mb-5 mb-lg-0">
-                        <div className="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#portfolioModal4">
-                            <div className="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
-                                <div className="portfolio-item-caption-content text-center text-white"><i className="fas fa-plus fa-3x"></i></div>
-                            </div>
-                            <img className="img-fluid" src="assets/img/portfolio/game.png" alt="..." />
-                        </div>
-                    </div>
-                    {/*<!-- Portfolio Item 5 -->*/}
-                    <div className="col-md-6 col-lg-4 mb-5 mb-md-0">
-                        <div className="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#portfolioModal5">
-                            <div className="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
-                                <div className="portfolio-item-caption-content text-center text-white"><i className="fas fa-plus fa-3x"></i></div>
-                            </div>
-                            <img className="img-fluid" src="assets/img/portfolio/safe.png" alt="..." />
-                        </div>
-                    </div>
-                    {/*<!-- Portfolio Item 6 -->*/}
-                    <div className="col-md-6 col-lg-4">
-                        <div className="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#portfolioModal6">
-                            <div className="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
-                                <div className="portfolio-item-caption-content text-center text-white"><i className="fas fa-plus fa-3x"></i></div>
-                            </div>
-                            <img className="img-fluid" src="assets/img/portfolio/submarine.png" alt="..." />
-                        </div>
-                    </div>
+                    
                 </div>
             </div>
         </section>
