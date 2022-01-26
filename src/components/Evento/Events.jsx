@@ -1,10 +1,10 @@
 
-const Portfolio = () => {
+const Events = () => {
   return (
-    <section className="page-section portfolio" id="portfolio">
+    <section className="page-section portfolio bg-secundary" id="events">
             <div className="container">
                 {/*<!-- Portfolio Section Heading-->*/}
-                <h2 className="page-section-heading text-center text-uppercase text-secondary mb-0">Portfolio</h2>
+                <h2 className="page-section-heading text-center text-uppercase text-secondary mb-0">Eventos</h2>
                 {/*<!-- Icon Divider -->*/}
                 <div className="divider-custom">
                     <div className="divider-custom-line"></div>
@@ -73,4 +73,4 @@ const Portfolio = () => {
   );
 };
 
-export default Portfolio;
+export default Events;

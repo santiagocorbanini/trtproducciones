@@ -6,7 +6,7 @@ export const About = () => {
         <div className="container">
             
             {/*<!-- About Section Heading-->*/}
-            <h2 className="page-section-heading text-center text-uppercase text-white">About</h2>
+            <h2 className="page-section-heading text-center text-uppercase text-white">Nosotros</h2>
             {/*<!-- Icon Divider-->*/}
             <div className="divider-custom divider-light">
                 <div className="divider-custom-line"></div>

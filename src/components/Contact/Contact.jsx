@@ -5,7 +5,7 @@ const Contact = () => {
     <section className="page-section" id="contact">
         <div className="container">
             {/*<!-- Contact Section Heading-->*/}
-            <h2 className="page-section-heading text-center text-uppercase text-secondary mb-0">Contact Me</h2>
+            <h2 className="page-section-heading text-center text-uppercase text-secondary mb-0">Contacto</h2>
             {/*<!-- Icon Divider-->*/}
             <div className="divider-custom">
                 <div className="divider-custom-line"></div>
@@ -26,27 +26,27 @@ const Contact = () => {
                         {/*<!-- Name input-->*/}
                         <div className="form-floating mb-3">
                             <input className="form-control" name="name" type="text" placeholder="Enter your name..." data-sb-validations="required" />
-                            <label htmlFor="name">Full name</label>
-                            <div className="invalid-feedback" data-sb-feedback="name:required">A name is required.</div>
+                            <label htmlFor="name">Nombre</label>
+                            <div className="invalid-feedback" data-sb-feedback="name:required">Un nombre es requerido.</div>
                         </div>
                         {/*<!-- Email address input-->*/}
                         <div className="form-floating mb-3">
                             <input className="form-control" name="email" type="email" placeholder="name@example.com" data-sb-validations="required,email" />
-                            <label htmlFor="email">Email address</label>
-                            <div className="invalid-feedback" data-sb-feedback="email:required">An email is required.</div>
-                            <div className="invalid-feedback" data-sb-feedback="email:email">Email is not valid.</div>
+                            <label htmlFor="email">Correo electronico</label>
+                            <div className="invalid-feedback" data-sb-feedback="email:required">Un email es requerido.</div>
+                            <div className="invalid-feedback" data-sb-feedback="email:email">El email no es valido.</div>
                         </div>
                         {/*<!-- Phone number input-->*/}
                         <div className="form-floating mb-3">
                             <input className="form-control" name="phone" type="tel" placeholder="(123) 456-7890" data-sb-validations="required" />
-                            <label htmlFor="phone">Phone number</label>
-                            <div className="invalid-feedback" data-sb-feedback="phone:required">A phone number is required.</div>
+                            <label htmlFor="phone">Telefono</label>
+                            <div className="invalid-feedback" data-sb-feedback="phone:required">Un numero telefonico es requerido</div>
                         </div>
                         {/*<!-- Message input-->*/}
                         <div className="form-floating mb-3">
                             <textarea className="form-control" name="message" type="text" defaultValue="" placeholder="Enter your message here..." data-sb-validations="required"></textarea>
-                            <label htmlFor="message">Message</label>
-                            <div className="invalid-feedback" data-sb-feedback="message:required">A message is required.</div>
+                            <label htmlFor="message">Mensaje</label>
+                            <div className="invalid-feedback" data-sb-feedback="message:required">Un mensaje es requerido.</div>
                         </div>
                         {/*<!-- Submit success message-->*/}
                         {/*<!---->*/}
@@ -66,7 +66,7 @@ const Contact = () => {
                         {/*<!-- an error submitting the form-->*/}
                         <div className="d-none" id="submitErrorMessage"><div className="text-center text-danger mb-3">Error sending message!</div></div>
                         {/*<!-- Submit Button-->*/}
-                        <button className="btn btn-primary btn-xl disabled" id="submitButton" type="submit">Send</button>
+                        <button className="btn btn-primary btn-xl disabled" id="submitButton" type="submit">Enviar</button>
                     </form>
                 </div>
             </div>
