@@ -14,7 +14,18 @@
 /*CUSTOM*/
 
 #logo {
-  width: 160px
+  width: 140px
+}
+
+#menu-text {
+  font-size: 20px;
+}
+
+@media (max-width: 600px) {
+  #logo {
+    width: 100px;
+    margin-left: 20px;
+  }
 }
 
 @font-face {
@@ -72,7 +83,7 @@
   --bs-font-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
   --bs-gradient: linear-gradient(180deg, rgba(255, 255, 255, 0.15), rgba(255, 255, 255, 0));
   --bs-body-font-family: var(--bs-font-sans-serif);
-  --bs-body-font-size: 1.2rem;
+  --bs-body-font-size: 0.8rem;
   --bs-body-font-weight: 400;
   --bs-body-line-height: 1.5;
   --bs-body-color: #212529;
@@ -3197,7 +3208,9 @@ textarea.form-control-lg {
   background-color: #ffc107;
   border-color: #ffc107;
 }
-
+.divider-dark {
+  color: var(--BlackColor);
+}
 .btn-danger {
   color: #fff;
   background-color: #dc3545;
@@ -11338,7 +11351,7 @@ html {
   width: 100%;
   max-width: 7rem;
   height: 0.25rem;
-  background-color: #2c3e50;
+  background-color: var(--BlackColor);
   border-radius: 1rem;
   border-color: #2c3e50;
 }
@@ -11349,7 +11362,7 @@ html {
   margin-left: 1rem;
 }
 .divider-custom .divider-custom-icon {
-  color: #2c3e50;
+  color: var(--BlackColor);
   font-size: 2rem;
 }
 .divider-custom.divider-light .divider-custom-line {
@@ -11493,7 +11506,7 @@ html {
   left: 0;
   transition: all 0.2s ease-in-out;
   opacity: 0;
-  background-color: rgba(26, 188, 156, 0.9);
+  background-color: rgba(227, 255, 0, 0.2);
 }
 .portfolio .portfolio-item .portfolio-item-caption:hover {
   opacity: 1;

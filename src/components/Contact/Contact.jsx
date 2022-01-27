@@ -5,7 +5,7 @@ const Contact = () => {
     <section className="page-section" id="contact">
         <div className="container">
             {/*<!-- Contact Section Heading-->*/}
-            <h2 className="page-section-heading text-center text-uppercase text-secondary mb-0">Contacto</h2>
+            <h2 className="page-section-heading text-center text-uppercase text-black mb-0">Contacto</h2>
             {/*<!-- Icon Divider-->*/}
             <div className="divider-custom">
                 <div className="divider-custom-line"></div>

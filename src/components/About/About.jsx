@@ -4,15 +4,15 @@ import gira from '../../assets/img/gira2022.jpg'
 export const About = () => {
   return (
     <section className="page-section bg-primary text-white mb-0 text-center" id="about">
-              <h2 className="page-section-heading text-center text-uppercase text-white">Nosotros</h2>
+              <h2 className="page-section-heading text-center text-uppercase text-black">Nosotros</h2>
                 {/*<!-- Icon Divider -->*/}
-                <div className="divider-custom divider-light">
+                <div className="divider-custom divider-dark">
                     <div className="divider-custom-line"></div>
                     <div className="divider-custom-icon"><i className="fas fa-star"></i></div>
                     <div className="divider-custom-line"></div>
                 </div>
             {/*<!-- Imagen Nosotros-->*/}
-              <div className="container">
+              <div className="container text-black">
                   <div className="row">
                           <div className="col-lg-4 mb-5 mb-lg-0">
                               <img className='w-100 pt-5' src={gira} alt="" srcset="" />
