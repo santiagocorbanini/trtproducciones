@@ -17,8 +17,8 @@
   width: 140px
 }
 
-#menu-text {
-  font-size: 20px;
+#nosotros p {
+  font-size: 1.4em;
 }
 
 @media (max-width: 600px) {
@@ -3060,33 +3060,32 @@ textarea.form-control-lg {
 }
 
 .btn-primary {
-  color: #fff;
-  background-color: #1abc9c;
-  border-color: #1abc9c;
+  color: var(--BlackColor);
+  background-color: #FFF;
+  border-color: var(--BlackColor);
 }
 .btn-primary:hover {
-  color: #fff;
-  background-color: #16a085;
-  border-color: #15967d;
+  color: var(--bs-gray);
+  background-color: var(--FirstColor);
+  border-color: var(--FirstColor);
 }
 .btn-check:focus + .btn-primary, .btn-primary:focus {
   color: #fff;
-  background-color: #16a085;
-  border-color: #15967d;
-  box-shadow: 0 0 0 0.25rem rgba(60, 198, 171, 0.5);
+  background-color: var(--BlackColor);
+  border-color: var(--BlackColor);
 }
 .btn-check:checked + .btn-primary, .btn-check:active + .btn-primary, .btn-primary:active, .btn-primary.active, .show > .btn-primary.dropdown-toggle {
   color: #fff;
-  background-color: #15967d;
-  border-color: #148d75;
+  background-color: var(--BlackColor);
+  border-color: var(--BlackColor);
 }
 .btn-check:checked + .btn-primary:focus, .btn-check:active + .btn-primary:focus, .btn-primary:active:focus, .btn-primary.active:focus, .show > .btn-primary.dropdown-toggle:focus {
   box-shadow: 0 0 0 0.25rem rgba(60, 198, 171, 0.5);
 }
 .btn-primary:disabled, .btn-primary.disabled {
   color: #fff;
-  background-color: #1abc9c;
-  border-color: #1abc9c;
+  background-color: var(--BlackColor);
+  border-color: var(--BlackColor);
 }
 
 .btn-secondary {
