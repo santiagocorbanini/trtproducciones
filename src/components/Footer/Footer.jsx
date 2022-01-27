@@ -21,8 +21,8 @@ const Footer = () => {
                     <p className="lead mb-0">
                         Todos los derechos reservados.
                     </p>
-                    <a className="btn btn-outline-light btn-social mx-1 mt-3" href="#!"><i className="fab fa-fw fa-facebook-f"></i></a>
-                    <a className="btn btn-outline-light btn-social mx-1 mt-3" href="#!"><i className="fab fa-fw fa-twitter"></i></a>
+                    <a className="btn btn-outline-light btn-social mx-1 mt-3" href="#!"><i className="fas fa-fw fa-globe"></i></a>
+                    <a className="btn btn-outline-light btn-social mx-1 mt-3" href="#!"><i className="fab fa-fw fa-whatsapp"></i></a>
                     <a className="btn btn-outline-light btn-social mx-1 mt-3" href="#!"><i className="fab fa-fw fa-linkedin-in"></i></a>
                 </div>
                 {/*<!-- Footer About Text-->*/}
@@ -31,9 +31,9 @@ const Footer = () => {
                     <p className="lead mb-0">
                         Freelance is a free to use, MIT.
                     </p>
-                    <a className="btn btn-outline-light btn-social mx-1 mt-3" href="#!"><i className="fab fa-fw fa-facebook-f"></i></a>
-                    <a className="btn btn-outline-light btn-social mx-1 mt-3" href="#!"><i className="fab fa-fw fa-twitter"></i></a>
-                    <a className="btn btn-outline-light btn-social mx-1 mt-3" href="#!"><i className="fab fa-fw fa-linkedin-in"></i></a>
+                    <a className="btn btn-outline-light btn-social mx-1 mt-3" href="#!"><i className="fas fa-fw fa-globe"></i></a>
+                    <a className="btn btn-outline-light btn-social mx-1 mt-3" href="#!"><i className="fab fa-fw fa-instagram"></i></a>
+                    <a className="btn btn-outline-light btn-social mx-1 mt-3" href="#!"><i className="fab fa-fw fa-whatsapp"></i></a>
                 </div>
             </div>
         </div>
