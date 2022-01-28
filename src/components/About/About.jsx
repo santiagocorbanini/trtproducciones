@@ -15,7 +15,7 @@ export const About = () => {
               <div className="container text-black">
                   <div className="row">
                           <div className="col-lg-4 mb-5 mb-lg-0">
-                              <img className='w-100 pt-5' src={gira} alt="" srcset="" />
+                              <img className='w-100 pt-5' src={gira} alt="" srcSet="" />
                           </div>
                         {/*<!-- Nosotros Descripcion -->*/}
                           <div className="col-lg-8" id="nosotros">

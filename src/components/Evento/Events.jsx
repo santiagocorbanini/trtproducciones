@@ -48,7 +48,7 @@ const Events = () => {
             </div>
             {/*<!-- Portfolio Modals -->*/}
                 {/*<!--Portfolio Modal 1 -->*/}
-                <div className="portfolio-modal modal fade" id="portfolioModal1" tabindex="-1" aria-labelledby="portfolioModal1" aria-hidden="true">
+                <div className="portfolio-modal modal fade" id="portfolioModal1" tabIndex="-1" aria-labelledby="portfolioModal1" aria-hidden="true">
                         <div className="modal-dialog modal-xl">
                             <div className="modal-content">
                                 {/*<!--Portfolio Modal X Close -->*/}
@@ -82,7 +82,7 @@ const Events = () => {
                         </div>
                     </div>
                 {/*<!--Portfolio Modal 2 -->*/}
-                <div className="portfolio-modal modal fade" id="portfolioModal2" tabindex="-1" aria-labelledby="portfolioModal2" aria-hidden="true">
+                <div className="portfolio-modal modal fade" id="portfolioModal2" tabIndex="-1" aria-labelledby="portfolioModal2" aria-hidden="true">
                         <div className="modal-dialog modal-xl">
                             <div className="modal-content">
                                 {/*<!--Portfolio Modal X Close -->*/}
@@ -116,7 +116,7 @@ const Events = () => {
                         </div>
                     </div>
                 {/*<!--Portfolio Modal 3 -->*/}
-                <div className="portfolio-modal modal fade" id="portfolioModal3" tabindex="-1" aria-labelledby="portfolioModal3" aria-hidden="true">
+                <div className="portfolio-modal modal fade" id="portfolioModal3" tabIndex="-1" aria-labelledby="portfolioModal3" aria-hidden="true">
                         <div className="modal-dialog modal-xl">
                             <div className="modal-content">
                                 {/*<!--Portfolio Modal X Close -->*/}
