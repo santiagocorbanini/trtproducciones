@@ -18,14 +18,14 @@ const Services = () => {
                     <div className="container text-black">
                         <div className="row">
                                 {/*<!-- Servicios Descripcion -->*/}
-                                <div className="col-lg-8 text-left d-flex flex-column pt-5" id="nosotros">
-                                <span className=""><i className="fas fa-guitar fa-lg pr-2"></i> Brindamos todas las comodidades necesarias para que los músicos puedan desarrollar su arte de la mejor manera.</span>
-                                <span className=""><i className="fas fa-headphones-alt fa-lg pr-2"></i> Nos encargamos de gestionar la distribución digital del material de nuestros artistas en todas las plataformas digitales.</span>
-                                <span className=""><i className="fas fa-clipboard fa-lg pr-2"></i> Junto a ellos, planificamos las salidas de nuevos lanzamentos, singles, videos o álbumes y Hacemos un seguimiento y estudio de las estadísticas para saber en que puntos mejorar, y así lograr los mayores resultados.</span>
+                                <div className="col-lg-8 text-left d-flex align-content-center flex-column justify-content-between" id="nosotros">
+                                <span className="py-3"><i className="fas fa-guitar fa-lg pr-2"></i> Brindamos todas las comodidades necesarias para que los músicos puedan desarrollar su arte de la mejor manera.</span>
+                                <span className="py-3"><i className="fas fa-headphones-alt fa-lg pr-2"></i> Nos encargamos de gestionar la distribución digital del material de nuestros artistas en todas las plataformas digitales.</span>
+                                <span className="py-3"><i className="fas fa-clipboard fa-lg pr-2"></i> Junto a ellos, planificamos las salidas de nuevos lanzamentos, singles, videos o álbumes y Hacemos un seguimiento y estudio de las estadísticas para saber en que puntos mejorar, y así lograr los mayores resultados.</span>
 
                                 </div>
                                 {/*<!-- Imagenes Servicios-->*/}
-                                <div className="col-lg-4 pt-5 mb-lg-0">
+                                <div className="col-lg-4 mb-lg-0">
                                     <div className='cuadrado-img'>
                                     <img className='w-50 border-tl' src={distribucion} alt="" srcSet="" />
                                     <img className='w-50 border-tr' src={contenido} alt="" srcSet="" />

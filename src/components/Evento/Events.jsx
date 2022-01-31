@@ -58,7 +58,7 @@ const Events = () => {
                                         <div className="row justify-content-center">
                                             <div className="col-lg-8">
                                                 {/*<!--Portfolio Modal Title -->*/}
-                                                <h2 className="portfolio-modal-title text-black text-uppercase mb-0">Log Cabin</h2>
+                                                <h2 className="portfolio-modal-title text-black text-uppercase mb-0">Guasones</h2>
                                                 {/*<!--Icon Divider -->*/}
                                                 <div className="divider-custom">
                                                     <div className="divider-custom-line"></div>
@@ -68,7 +68,17 @@ const Events = () => {
                                                 {/*<!--Portfolio Modal Image -->*/}
                                                 <img className="img-fluid rounded mb-5" src={imagen1} alt="..." />
                                                 {/*<!--Portfolio Modal Text -->*/}
-                                                <p className="mb-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.</p>
+                                                <h3>ENTRADAS YA A LA VENTA</h3>
+                                                <p className="mb-4">Anticipadas en @woutick (www.woutick.es)
+                                                     A PRECIO PROMOCIONAL POR TIEMPO LIMITADO</p>
+                                                <p className="mb-4">
+                                                    🃏@guasones llega a #España 🇪🇸
+                                                    🇦🇷 Una de las bandas argentinas mas solicitadas llegará al Viejo Continente con todos sus hits!</p>
+                                                    <h6>26 Mayo #Barcelona @razzmatazzclubs</h6>
+                                                    <h6>27 Mayo #Mallorca @es_gremi</h6>
+                                                    <h6>28 Mayo #Valencia @madisonlatinclub</h6>
+                                                    <h6>3 Junio #Malaga @salatrincheraA</h6>
+                                                    <h6>4 Junio #Madrid @independanceclub</h6>
                                                 {/*<!--Portfolio Modal Button Cerrar -->*/}
                                                 <button className="btn btn-primary" type="button" data-bs-dismiss="modal">
                                                     <i className="fas fa-times fa-fw"></i>
@@ -92,7 +102,7 @@ const Events = () => {
                                         <div className="row justify-content-center">
                                             <div className="col-lg-8">
                                                 {/*<!--Portfolio Modal Title -->*/}
-                                                <h2 className="portfolio-modal-title text-black text-uppercase mb-0">Log Cabin</h2>
+                                                <h2 className="portfolio-modal-title text-black text-uppercase mb-0">Cruzando el charco</h2>
                                                 {/*<!--Icon Divider -->*/}
                                                 <div className="divider-custom">
                                                     <div className="divider-custom-line"></div>
@@ -102,8 +112,15 @@ const Events = () => {
                                                 {/*<!--Portfolio Modal Image -->*/}
                                                 <img className="img-fluid rounded mb-5" src={imagen2} alt="..." />
                                                 {/*<!--Portfolio Modal Text -->*/}
-                                                <p className="mb-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.</p>
-                                                {/*<!--Portfolio Modal Button Cerrar -->*/}
+                                                <p className="mb-4">🎫 Anticipadas a la venta en @woutick ! A VALOR PROMOCIONAL
+
+                                                    Te lo vas a perder?
+                                                    </p>
+                                                    <h6>22 Abril #Barcelona @razzmatazzclubs</h6>
+                                                    <h6>23 Abril #Valencia @madisonlatinclub</h6>
+                                                    <h6>29 Abril #Mallorca @es_gremi</h6>
+                                                    <h6>30 Abril #Malaga @salatrincheraA</h6>
+                                                    <h6>1 Mayo #Madrid @independanceclub</h6>                                                {/*<!--Portfolio Modal Button Cerrar -->*/}
                                                 <button className="btn btn-primary" type="button" data-bs-dismiss="modal">
                                                     <i className="fas fa-times fa-fw"></i>
                                                     Cerrar
@@ -126,7 +143,7 @@ const Events = () => {
                                         <div className="row justify-content-center">
                                             <div className="col-lg-8">
                                                 {/*<!--Portfolio Modal Title -->*/}
-                                                <h2 className="portfolio-modal-title text-black text-uppercase mb-0">Log Cabin</h2>
+                                                <h2 className=" text-black text-uppercase mb-0">Los fundamentalistas del aire acondicionado</h2>
                                                 {/*<!--Icon Divider -->*/}
                                                 <div className="divider-custom">
                                                     <div className="divider-custom-line"></div>
@@ -136,8 +153,17 @@ const Events = () => {
                                                 {/*<!--Portfolio Modal Image -->*/}
                                                 <img className="img-fluid rounded mb-5" src={imagen3} alt="..." />
                                                 {/*<!--Portfolio Modal Text -->*/}
-                                                <p className="mb-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.</p>
-                                                {/*<!--Portfolio Modal Button Cerrar -->*/}
+                                                <p className="mb-4">⚠️ YA A LA VENTA ⚠️
+                                                        🎟 Ya están las entradas disponibles en:
+                                                        👉🏼 www.sfx-events.com
+
+                                                        💣 @losfundamentalistasok llegan a #España 💣
+                                                    </p>
+                                                    <h6>31 Marzo | Barcelona - Razzmatazz</h6>
+                                                    <h6>2 Abril | Mallorca - Es Gremi</h6>
+                                                    <h6>7 Abril | Madrid - Riviera</h6>
+                                                    <h6>8 Abril | Valencia - Repvplicca</h6>
+                                                    <h6>9 Abril | Malaga - Paris 15</h6>                                                    {/*<!--Portfolio Modal Button Cerrar -->*/}
                                                 <button className="btn btn-primary" type="button" data-bs-dismiss="modal">
                                                     <i className="fas fa-times fa-fw"></i>
                                                     Cerrar
