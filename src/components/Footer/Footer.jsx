@@ -32,7 +32,7 @@ const Footer = () => {
                     <div className="col-lg-6">
                         <img src={logo} alt="2222 Agencia" id='logo-footer' />
                         <p className="lead mb-0">
-                            Freelance is a free to use, MIT.
+                            Barcelona, España.
                         </p>
                         <a className="btn btn-outline-light btn-social mx-1 mt-3" href="https://www.2222agencia.com" target={"_blank"}><i className="fas fa-fw fa-globe"></i></a>
                         <a className="btn btn-outline-light btn-social mx-1 mt-3" href="https://www.instagram.com/2222agencia/" target={"_blank"}><i className="fab fa-fw fa-instagram"></i></a>

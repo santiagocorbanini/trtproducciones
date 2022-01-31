@@ -116,14 +116,14 @@ export const ContactUs = () => {
                     {/*<!-- Email address input-->*/}
                     <div className="form-floating mb-3">
                         <input className="form-control" name="email" type="email" placeholder="name@example.com" data-sb-validations="required,email" />
-                        <label htmlFor="email">Correo electronico</label>
+                        <label htmlFor="email">Correo electrónico</label>
                         <div className="invalid-feedback" data-sb-feedback="email:required">Un email es requerido.</div>
                         <div className="invalid-feedback" data-sb-feedback="email:email">El email no es valido.</div>
                     </div>
                     {/*<!-- Phone number input-->*/}
                     <div className="form-floating mb-3">
                         <input className="form-control" name="telefono" type="tel" placeholder="(123) 456-7890" data-sb-validations="required" />
-                        <label htmlFor="phone">Telefono</label>
+                        <label htmlFor="phone">Teléfono</label>
                         <div className="invalid-feedback" data-sb-feedback="phone:required">Un numero telefonico es requerido</div>
                     </div>
                     {/*<!-- Message input-->*/}

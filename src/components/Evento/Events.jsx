@@ -1,7 +1,8 @@
 
-import imagen1 from '../../assets/img/gira2022.jpg';
-import imagen2 from '../../assets/img/distribucion.jpg';
-import imagen3 from '../../assets/img/estudios.jpg';
+import imagen1 from '../../assets/img/guaso.jpg';
+import imagen3 from '../../assets/img/fundamentalista.jpg';
+import imagen22 from '../../assets/img/cruzando2.jpg';
+
 
 const Events = () => {
   return (
@@ -32,7 +33,7 @@ const Events = () => {
                             <div className="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
                                 <div className="portfolio-item-caption-content text-center text-white"><i className="fas fa-plus fa-3x"></i></div>
                             </div>
-                            <img className="img-fluid" src={imagen2} alt="..." />
+                            <img className="img-fluid" src={imagen22} alt="..." />
                         </div>
                     </div>
                     {/*<!-- Portfolio Item 3 -->*/}
@@ -110,7 +111,7 @@ const Events = () => {
                                                     <div className="divider-custom-line"></div>
                                                 </div>
                                                 {/*<!--Portfolio Modal Image -->*/}
-                                                <img className="img-fluid rounded mb-5" src={imagen2} alt="..." />
+                                                <img className="img-fluid rounded mb-5" src={imagen22} alt="..." />
                                                 {/*<!--Portfolio Modal Text -->*/}
                                                 <p className="mb-4">🎫 Anticipadas a la venta en @woutick ! A VALOR PROMOCIONAL
 
