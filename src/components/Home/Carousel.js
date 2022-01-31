@@ -11,22 +11,22 @@ const Carousel = () => {
 
                     <div className="carousel-inner">
                         <div className="carousel-item active">
-                            <div className="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#portfolioModal1">
+                            <div className="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#">
                                 <img className="img-carousel" src={convocatoria} alt="..." />
                             </div>                    
                         </div>
                         <div className="carousel-item">
-                            <div className="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#portfolioModal1">
+                            <div className="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#">
                                 <img className="img-carousel" src={estudios} alt="..." />
                             </div>                    
                         </div>
                         <div className="carousel-item">
-                            <div className="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#portfolioModal1">
+                            <div className="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#">
                                 <img className="img-carousel" src={imagen1} alt="..." />
                             </div>                    
                         </div>
                         <div className="carousel-item">
-                            <div className="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#portfolioModal1">
+                            <div className="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#">
                                 <img className="img-carousel" src={imagen22} alt="..." />
                             </div>
                         </div>
