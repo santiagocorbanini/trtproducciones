@@ -11511,9 +11511,12 @@ html {
 }
 
 .masthead {
-  padding-top: calc(2rem + 74px);
-  padding-bottom: 2rem;
+    margin-top: 72px;
+    padding-top: 32px;
+    background: linear-gradient(black, var(--FirstColor));
+    padding-bottom: 2rem;
 }
+
 .masthead .masthead-heading {
   font-size: 2.75rem;
   line-height: 2.75rem;
