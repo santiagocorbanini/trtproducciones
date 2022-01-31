@@ -1,5 +1,6 @@
 import logo from "../../assets/img/logo.png";
 import booking from "../../assets/img/booking.jpg"
+import estudios from "../../assets/img/estudios.jpg"
 
 const Carousel = () => {
     return (  
@@ -15,7 +16,7 @@ const Carousel = () => {
                     <div className="carousel-inner">
                         <div className="carousel-item active">
                             <div className="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#portfolioModal1">
-                                <img className="img-carousel" src={booking} alt="..." />
+                                <img className="img-carousel" src={estudios} alt="..." />
                             </div>                    
                         </div>
                         <div className="carousel-item">
