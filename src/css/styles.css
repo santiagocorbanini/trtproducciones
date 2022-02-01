@@ -72,7 +72,6 @@
 }
 
 .swal-button {
-
   background-color: var(--FirstColor);
   color:var(--BlackColor);
 }
@@ -11430,7 +11429,7 @@ html {
 }
 
 .btn-xl {
-  padding: 1rem 1.75rem;
+  padding: 1rem 3.75rem;
   font-size: 1.25rem;
 }
 
