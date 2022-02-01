@@ -70,7 +70,7 @@ export const ContactUs = () => {
             button: "Finalizar",
             })
             .then(function() {
-                window.location = "http://localhost:3000";
+                window.location = "http://www.2222agencia.com";
         });
     }
 
