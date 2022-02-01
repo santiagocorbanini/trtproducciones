@@ -130,7 +130,7 @@
   --bs-body-font-weight: 400;
   --bs-body-line-height: 1.5;
   --bs-body-color: #212529;
-  --bs-body-bg: #fff;
+  --bs-body-bg: var(--BlackColor);
 }
 
 *,
@@ -188,7 +188,7 @@ h1, .h1 {
 }
 
 h2, .h2 {
-  font-size: calc(1.325rem + 0.9vw);
+  font-size: calc(1rem + 0.9vw);
 }
 @media (min-width: 1200px) {
   h2, .h2 {
@@ -11513,7 +11513,7 @@ html {
 .masthead {
     margin-top: 72px;
     padding-top: 32px;
-    background: linear-gradient(black, var(--FirstColor));
+    background: linear-gradient(var(--BlackColor), var(--FirstColor));
     padding-bottom: 2rem;
 }
 
