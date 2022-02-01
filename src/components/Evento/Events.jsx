@@ -59,7 +59,7 @@ const Events = () => {
                                         <div className="row justify-content-center">
                                             <div className="col-lg-8">
                                                 {/*<!--Portfolio Modal Title -->*/}
-                                                <h2 className="portfolio-modal-title text-black text-uppercase mb-0">Guasones</h2>
+                                                <h2 id="evento-titulo" className="portfolio-modal-title text-black text-uppercase mb-0">Guasones</h2>
                                                 {/*<!--Icon Divider -->*/}
                                                 <div className="divider-custom">
                                                     <div className="divider-custom-line"></div>
@@ -69,7 +69,7 @@ const Events = () => {
                                                 {/*<!--Portfolio Modal Image -->*/}
                                                 <img className="img-fluid rounded mb-5" src={imagen1} alt="..." />
                                                 {/*<!--Portfolio Modal Text -->*/}
-                                                <h3>ENTRADAS YA A LA VENTA</h3>
+                                                <h6>ENTRADAS YA A LA VENTA</h6>
                                                 <p className="mb-4 lead">Anticipadas en @woutick (www.woutick.es)
                                                     A PRECIO PROMOCIONAL POR TIEMPO LIMITADO</p>
                                                 <p className="mb-4 lead">
@@ -103,7 +103,7 @@ const Events = () => {
                                         <div className="row justify-content-center">
                                             <div className="col-lg-8">
                                                 {/*<!--Portfolio Modal Title -->*/}
-                                                <h2 className="portfolio-modal-title text-black text-uppercase mb-0">Cruzando el charco</h2>
+                                                <h2 id="evento-titulo" className="portfolio-modal-title text-black text-uppercase mb-0">Cruzando el charco</h2>
                                                 {/*<!--Icon Divider -->*/}
                                                 <div className="divider-custom">
                                                     <div className="divider-custom-line"></div>
@@ -144,7 +144,7 @@ const Events = () => {
                                         <div className="row justify-content-center">
                                             <div className="col-lg-8">
                                                 {/*<!--Portfolio Modal Title -->*/}
-                                                <h2 className=" text-black text-uppercase mb-0 text-center">Los fundamentalistas del aire acondicionado</h2>
+                                                <h2 id="evento-titulo" className=" text-black text-uppercase mb-0 text-center">Los fundamentalistas del aire acondicionado</h2>
                                                 {/*<!--Icon Divider -->*/}
                                                 <div className="divider-custom">
                                                     <div className="divider-custom-line"></div>

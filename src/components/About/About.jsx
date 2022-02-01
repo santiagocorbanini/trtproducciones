@@ -29,7 +29,7 @@ export const About = () => {
                                   <p className="px-2 text-left">Además de contar con una vasta experiencia, nos encontramos en constante movimiento para estar actualizados y a la altura de las exigencias de la industria musical.</p>
                                 </div>
                           </div>
-                          <h5 className="mt-5">Creemos en las nuevas generaciones de artistas y contamos con el sentimiento más puro y genuino hacia la música.</h5>
+                          <h5 id="nosotros-frase" className="mt-5">Creemos en las nuevas generaciones de artistas y contamos con el sentimiento más puro y genuino hacia la música.</h5>
                   </div>
               </div>
     </section>

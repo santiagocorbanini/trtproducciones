@@ -5801,6 +5801,20 @@ textarea.form-control-lg {
   .modal-fullscreen-lg-down .modal-footer {
     border-radius: 0;
   }
+
+
+  #evento-titulo{
+    font-size: large;
+  }
+  .divider-custom{
+    margin: 0 0 1.5rem !important;
+  }
+  .page-section{
+    padding: 3rem 0 !important;
+  }
+  #nosotros-frase{
+      font-size: small;
+  }
 }
 @media (max-width: 1199.98px) {
   .modal-fullscreen-xl-down {
