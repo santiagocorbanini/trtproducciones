@@ -71,6 +71,17 @@
   }
 }
 
+.swal-button {
+
+  background-color: var(--FirstColor);
+  color:var(--BlackColor);
+}
+
+.swal-button:not([disabled]):hover {
+  color: white;
+  background-color: var(--BlackColor);
+}
+
 @font-face {
 	font-family: 'Neutro';
 	src: url(../../src/assets/font/Neutro-ExtraBold.otf);
