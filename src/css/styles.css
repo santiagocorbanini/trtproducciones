@@ -45,6 +45,12 @@
   font-size: 1.5em;
 }
 
+.bd-placeholder-img {
+    
+    margin-bottom: 15px;
+
+}
+
 .cuadrado-img {
   background-color: rgba(0, 0, 0, 0);
   box-shadow: 5px 5px 6px -1px rgba(0,0,0,0.27);
@@ -750,6 +756,11 @@ progress {
     max-width: 1320px;
   }
 }
+
+.hero {
+    margin-top: 6rem !important;
+}
+
 .row {
   --bs-gutter-x: 1.5rem;
   --bs-gutter-y: 0;

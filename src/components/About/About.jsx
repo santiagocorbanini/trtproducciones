@@ -31,6 +31,52 @@ export const About = () => {
                           </div>
                           <h5 id="nosotros-frase" className="mt-5">Creemos en las nuevas generaciones de artistas y contamos con el sentimiento más puro y genuino hacia la música.</h5>
                   </div>
+
+
+                <br></br>
+                <br></br>
+                <br></br>
+                <br></br>
+                <br></br>
+
+                <h2 className="page-section-heading text-center text-uppercase text-black">Equipo</h2>
+                {/*<!-- Icon Divider -->*/}
+                <div className="divider-custom divider-dark">
+                    <div className="divider-custom-line"></div>
+                    <div className="divider-custom-icon"><i className="fa fa-user"></i></div>
+                    <div className="divider-custom-line"></div>
+                </div>
+
+                  <div className="row justify-content-center">
+                    <div class="col-lg-3">
+                        <svg class="bd-placeholder-img rounded-circle"  width="140" height="140" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 140x140" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#777"></rect><text x="50%" y="50%" fill="#777" dy=".3em">140x140</text></svg>
+
+                        <h4>Santiago Corbanini</h4>
+                        <p>And lastly this, the third column of representative placeholder content. the third column of representative</p>
+                        <p>And lastly this, the third column of representative placeholder content. the third column of representative</p>
+                    </div>
+                    <div class="col-lg-3">
+                        <svg class="bd-placeholder-img rounded-circle"  width="140" height="140" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 140x140" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#777"></rect><text x="50%" y="50%" fill="#777" dy=".3em">140x140</text></svg>
+
+                        <h4>Santiago Corbanini</h4>
+                        <p>And lastly this, the third column of representative placeholder content. the third column of representative</p>
+                        <p>And lastly this, the third column of representative placeholder content. the third column of representative</p>
+                    </div>
+                    <div class="col-lg-3">
+                        <svg class="bd-placeholder-img rounded-circle"  width="140" height="140" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 140x140" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#777"></rect><text x="50%" y="50%" fill="#777" dy=".3em">140x140</text></svg>
+
+                        <h4>Santiago Corbanini</h4>
+                        <p>And lastly this, the third column of representative placeholder content. the third column of representative</p>
+                        <p>And lastly this, the third column of representative placeholder content. the third column of representative</p>
+                    </div>
+                    <div class="col-lg-3">
+                        <svg class="bd-placeholder-img rounded-circle"  width="140" height="140" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 140x140" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#777"></rect><text x="50%" y="50%" fill="#777" dy=".3em">140x140</text></svg>
+
+                        <h4>Santiago Corbanini</h4>
+                        <p>And lastly this, the third column of representative placeholder content. the third column of representative</p>
+                        <p>And lastly this, the third column of representative placeholder content. the third column of representative</p>
+                    </div>
+                </div>
               </div>
     </section>
   );
