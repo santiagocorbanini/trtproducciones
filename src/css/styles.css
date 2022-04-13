@@ -11555,7 +11555,7 @@ html {
 
 @media (min-width: 992px) {
   .masthead {
-    padding-top: calc(2rem + 104px);
+    padding-top: calc(2rem);
     padding-bottom: 2rem;
   }
   .masthead .masthead-heading {

@@ -6,7 +6,7 @@ import estudios from "../../assets/img/estudios.jpg"
 
 const Carousel = () => {
     return (  
-            <div>
+            <section className="page-section bg-primary" id="carousel">
                 <div id="carouselExampleControls" className="carousel slide" data-bs-ride="carousel">
 
                     <div className="carousel-inner">
@@ -40,7 +40,7 @@ const Carousel = () => {
                         <span className="visually-hidden">Siguiente</span>
                     </button>
                 </div>
-            </div>
+            </section>
     )
 }
 

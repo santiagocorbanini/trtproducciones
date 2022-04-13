@@ -1,10 +1,11 @@
 import Carousel from "./Carousel";
+import Hero from "./Hero";
 
 const Home = () => {
     return (
         <>
-            <header className="masthead bg-primary text-white text-center" id="home">
-                <Carousel />
+            <header className="text-white text-center" id="home">
+                <Hero />
             </header>
         </>
     );
