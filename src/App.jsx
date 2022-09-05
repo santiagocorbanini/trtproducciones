@@ -6,16 +6,19 @@ import Footer from "./components/Footer/Footer";
 import Artists from "./components/Artista/Artists";
 import Events from "./components/Evento/Events";
 import Services from "./components/Servicio/Services";
+import Trabajos from "./components/Trabajos/Trabajos";
+import Convocatoria from "./components/Convocatoria/Convocatoria";
 
 const App = () => {
   return (
     <>
     <Nav/>
-    <Home/>
     <Events />
-    <Services />
     <Artists />
     <About />
+    <Services />
+    <Convocatoria />
+    <Trabajos />
     <Contact />
     <Footer />
     </>

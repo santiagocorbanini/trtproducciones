@@ -12,11 +12,12 @@ const Nav = () => {
                 </button>
                 <div className="collapse navbar-collapse" id="navbarResponsive">
                     <ul className="navbar-nav ms-auto">
-                        <li className="nav-item mx-0 mx-lg-1"><a className="nav-link py-3 px-0 px-lg-2 rounded" href="#home">Home</a></li>
                         <li className="nav-item mx-0 mx-lg-1"><a className="nav-link py-3 px-0 px-lg-2 rounded" href="#events">Eventos</a></li>
-                        <li className="nav-item mx-0 mx-lg-1"><a className="nav-link py-3 px-0 px-lg-2 rounded" href="#services">Servicios</a></li>
                         <li className="nav-item mx-0 mx-lg-1"><a className="nav-link py-3 px-0 px-lg-2 rounded" href="#artists">Artistas</a></li>
                         <li className="nav-item mx-0 mx-lg-1"><a className="nav-link py-3 px-0 px-lg-2 rounded" href="#about">Nosotros</a></li>
+                        <li className="nav-item mx-0 mx-lg-1"><a className="nav-link py-3 px-0 px-lg-2 rounded" href="#services">Servicios</a></li>
+                        <li className="nav-item mx-0 mx-lg-1"><a className="nav-link py-3 px-0 px-lg-2 rounded" href="#convocatoria">Convocatoria</a></li>
+                        <li className="nav-item mx-0 mx-lg-1"><a className="nav-link py-3 px-0 px-lg-2 rounded" href="#trabajos">Trabajos</a></li>
                         <li className="nav-item mx-0 mx-lg-1"><a className="nav-link py-3 px-0 px-lg-2 rounded" href="#contact">Contacto</a></li>
                     </ul>
                 </div>
