@@ -10,6 +10,20 @@ const Artists = () => {
         setShow(!show);
     };
 
+
+    // Const para mapear las redes (seguir...)
+    const redes = [
+        {
+            instagram:
+            {
+                url: 'https://www.instagram.com/',
+                icon: <i className="fab fa-fw fa-instagram fa-lg"></i>
+            }
+        }
+    ]
+
+    console.log(redes)
+
     //const isDesktopOrLaptop = useMediaQuery({query: "(min-width: 1224px)",});
     //const isBigScreen = useMediaQuery({ query: "(min-width: 1824px)" });
     const isTabletOrMobile = useMediaQuery({ query: "(max-width: 1224px)" });
@@ -66,7 +80,8 @@ const Artists = () => {
                     </ToggleDisplay>
                     </>
                 ) : (
-                    <p>
+                    <div>
+                                            <p>
                     Su carrera como solista comienza editando el disco Espejos
                     recibiendo buenas críticas y ventas. En 2010, nuevamente le
                     toca ser soporte, esta vez del artista solista más exitoso del
@@ -75,6 +90,16 @@ const Artists = () => {
                     todos las de artistas que tenía como opciones soporte para sus
                     shows en Argentina en 2010 decidió quedarse con Ciro.2​
                     </p>
+                    <a href="https://www.pampacode.com" target={"_blank"} rel={"noreferrer"}>
+                        <i className="fab fa-fw fa-instagram fa-lg"></i>
+                    </a>
+                    <a href="https://www.pampacode.com" target={"_blank"} rel={"noreferrer"}>
+                        <i className="fab fa-fw fa-instagram fa-lg"></i>
+                    </a>
+                    <a href="https://www.pampacode.com" target={"_blank"} rel={"noreferrer"}>
+                        <i className="fab fa-fw fa-instagram fa-lg"></i>
+                    </a>
+                    </div>
                 )}
                 </div>
             </div>
