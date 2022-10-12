@@ -46,7 +46,7 @@ const Footer = () => {
               <i className="fas fa-envelope"></i>
             </a>
           </div>
-          {/*<!-- Footer About Text-->*/}
+          {/*<!-- Footer Nosotros Text-->*/}
           <div className="col-lg-6">
             <img src={newLogo} alt="2222 Agencia" id="logo-footer" />
             <p className="lead mb-0">Barcelona, España.</p>

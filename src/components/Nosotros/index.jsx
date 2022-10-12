@@ -1,6 +1,6 @@
 import React from 'react';
 
-export const About = () => {
+export const Nosotros = () => {
   return (
     <section className="page-section bg-primary text-white mb-0 text-center" id="about">
             {/*<!-- Imagen Nosotros-->*/}
@@ -51,4 +51,4 @@ export const About = () => {
   );
 };
 
-export default About;
+export default Nosotros;

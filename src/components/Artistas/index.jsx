@@ -3,7 +3,7 @@ import ToggleDisplay from "react-toggle-display";
 import { useState } from "react";
 import { useMediaQuery } from "react-responsive";
 
-const Artists = () => {
+const Artistas = () => {
     const [show, setShow] = useState("");
 
     const handleClick = () => {
@@ -31,7 +31,7 @@ const Artists = () => {
     //const isRetina = useMediaQuery({ query: "(min-resolution: 2dppx)" });
 
     return (
-        <section className="page-section portfolio bg-secundary" id="artists">
+        <section className="page-section portfolio bg-secundary" id="Artistas">
     {/* Test para usar ---> useMediaQuery
         <div>
             <h1>Device Test!</h1>
@@ -217,4 +217,4 @@ const Artists = () => {
     );
 };
 
-export default Artists;
+export default Artistas;

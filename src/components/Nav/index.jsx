@@ -1,8 +1,10 @@
 import "../../css/styles.css";
 import logo from "../../assets/img/logonew2222.png";
 import newLogo from "../../assets/img/logonew2222.png";
+import { useNavigate } from "react-router-dom";
 
 const Nav = () => {
+    const navigate = useNavigate();
     return (
         <nav
         className="navbar navbar-expand-lg bg-secondary fixed-top"
@@ -24,51 +26,42 @@ const Nav = () => {
             <div className="collapse navbar-collapse" id="navbarResponsive">
             <ul className="navbar-nav">
                 <li className="nav-item mx-0 mx-lg-1">
-                <a className="nav-link py-3 px-0 px-lg-2 rounded" href="#events">
+                <button className="nav-link py-3 px-0 px-lg-2" onClick={() => {navigate('/eventos')}}>
                     Eventos
-                </a>
+                </button>
                 </li>
                 <li className="nav-item mx-0 mx-lg-1">
-                <a className="nav-link py-3 px-0 px-lg-2 rounded" href="#artists">
+                <button className="nav-link py-3 px-0 px-lg-2" onClick={() => {navigate('/artistas')}}>
                     Artistas
-                </a>
+                </button>
                 </li>
                 <li className="nav-item mx-0 mx-lg-1">
-                <a
-                    className="nav-link py-3 px-0 px-lg-2 rounded"
-                    href="#services"
-                >
+                <button className="nav-link py-3 px-0 px-lg-2" onClick={() => {navigate('/servicios')}}>
                     Servicios
-                </a>
+                </button>
                 </li>
                 <a className="navbar-brand" href="#events">
                 <img src={newLogo} alt={logo} id="logo" />
                 </a>
                 <li className="nav-item mx-0 mx-lg-1">
-                <a
-                    className="nav-link py-3 px-0 px-lg-2 rounded"
-                    href="#convocatoria"
-                >
+                <button className="nav-link py-3 px-0 px-lg-2" onClick={() => {navigate('/convocatoria')}}>
                     Convocatoria
-                </a>
+                </button>
                 </li>
                 <li className="nav-item mx-0 mx-lg-1">
-                <a
-                    className="nav-link py-3 px-0 px-lg-2 rounded"
-                    href="#trabajos"
-                >
+                <button className="nav-link py-3 px-0 px-lg-2" onClick={() => {navigate('/trabajos')}}>
                     Trabajos
-                </a>
+                </button>
                 </li>
                 <li className="nav-item mx-0 mx-lg-1">
-                <a className="nav-link py-3 px-0 px-lg-2 rounded" href="#about">
+                <button className="nav-link py-3 px-0 px-lg-2" onClick={() => {navigate('/nosotros')}}>
                     Nosotros
-                </a>
+                </button>
                 </li>
                 <li className="nav-item mx-0 mx-lg-1 ms-auto">
-                <a className="nav-link py-3 px-0 px-lg-2 rounded" href="#contact">
+                <button className="nav-link py-3 px-0 px-lg-2" onClick={() => {navigate('/contacto')}}>
                     Contacto
-                </a>
+                </button>
                 </li>
             </ul>
             </div>

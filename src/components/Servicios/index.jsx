@@ -1,4 +1,4 @@
-const Services = () => {
+const Servicios = () => {
     return (
         <section className="page-section bg-primary text-white mb-0 text-center" id="services">
 
@@ -50,4 +50,4 @@ const Services = () => {
         );
     };
 
-export default Services;
+export default Servicios;

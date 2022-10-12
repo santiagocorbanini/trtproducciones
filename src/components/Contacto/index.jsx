@@ -1,10 +1,10 @@
 import React from 'react';
 import { ContactUs } from './ContactUs';
 
-const Contact = () => {
+const Contacto = () => {
   return (
     <ContactUs />
   );
 };
 
-export default Contact;
+export default Contacto;
