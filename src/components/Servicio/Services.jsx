@@ -2,7 +2,7 @@ const Services = () => {
     return (
         <section className="page-section bg-primary text-white mb-0 text-center" id="services">
 
-                    <div className="container text-black">
+                    <div className="container">
 
                         {/*<!-- 1 -->*/}
                         <div className="row mb-4">

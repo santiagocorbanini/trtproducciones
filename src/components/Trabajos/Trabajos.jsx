@@ -7,7 +7,7 @@ const Trabajos = () => {
     return (
         <section className="page-section bg-primary text-white mb-0 text-center" id="trabajos">
 
-                    <h6 className="page-section-heading text-center text-uppercase text-black">Trabajos realizados</h6>
+                    <h6 className="page-section-heading text-center text-uppercase">Trabajos realizados</h6>
 
                     <div className="container trabajos">
                         <div className="col-lg-4 mb-5 mb-lg-0">

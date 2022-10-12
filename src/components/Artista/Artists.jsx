@@ -43,7 +43,7 @@ const Artists = () => {
         </div> */}
         <div className="container">
             {/*<!-- Portfolio Section Heading-->*/}
-            <h2 className="page-section-heading text-center text-uppercase text-black mb-0">
+            <h2 className="page-section-heading text-center text-uppercase mb-0">
             Artistas
             </h2>
             {/*<!-- Icon Divider -->*/}

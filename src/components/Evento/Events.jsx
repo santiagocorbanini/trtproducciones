@@ -9,7 +9,7 @@ const Events = () => {
     <section className="page-section portfolio bg-secundary" id="events">
             <div className="container">
                 {/*<!-- Portfolio Section Heading-->*/}
-                <h2 className="page-section-heading text-center text-uppercase text-black mt-5">Eventos</h2>
+                <h2 className="page-section-heading text-center text-uppercase mt-5">Eventos</h2>
                 {/*<!-- Icon Divider -->*/}
                 <div className="divider-custom">
                     <div className="divider-custom-line"></div>
@@ -59,7 +59,7 @@ const Events = () => {
                                         <div className="row justify-content-center">
                                             <div className="col-lg-8">
                                                 {/*<!--Portfolio Modal Title -->*/}
-                                                <h2 id="evento-titulo" className="portfolio-modal-title text-black text-uppercase mb-0">Guasones</h2>
+                                                <h2 id="evento-titulo" className="portfolio-modal-title text-uppercase mb-0">Guasones</h2>
                                                 {/*<!--Icon Divider -->*/}
                                                 <div className="divider-custom">
                                                     <div className="divider-custom-line"></div>
@@ -103,7 +103,7 @@ const Events = () => {
                                         <div className="row justify-content-center">
                                             <div className="col-lg-8">
                                                 {/*<!--Portfolio Modal Title -->*/}
-                                                <h2 id="evento-titulo" className="portfolio-modal-title text-black text-uppercase mb-0">Cruzando el charco</h2>
+                                                <h2 id="evento-titulo" className="portfolio-modal-title text-uppercase mb-0">Cruzando el charco</h2>
                                                 {/*<!--Icon Divider -->*/}
                                                 <div className="divider-custom">
                                                     <div className="divider-custom-line"></div>
@@ -144,7 +144,7 @@ const Events = () => {
                                         <div className="row justify-content-center">
                                             <div className="col-lg-8">
                                                 {/*<!--Portfolio Modal Title -->*/}
-                                                <h2 id="evento-titulo" className=" text-black text-uppercase mb-0 text-center">Los fundamentalistas del aire acondicionado</h2>
+                                                <h2 id="evento-titulo" className=" text-uppercase mb-0 text-center">Los fundamentalistas del aire acondicionado</h2>
                                                 {/*<!--Icon Divider -->*/}
                                                 <div className="divider-custom">
                                                     <div className="divider-custom-line"></div>

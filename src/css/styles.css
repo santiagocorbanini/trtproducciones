@@ -97,8 +97,6 @@
 :root {
   --Principal-fuente: "Montserrat";
   --Titulo-fuente: "YRT Lucky Dog";
-  background-color: var(--BlackColor);
-  --FirstColor: #e3ff00;
   --WhiteColor: rgb(243, 237, 237) ;
   --BlackColor: #0a0a0c;
   --bs-blue: #0d6efd;
@@ -150,7 +148,7 @@
   --bs-body-font-size: 0.8rem;
   --bs-body-font-weight: 400;
   --bs-body-line-height: 1.5;
-  --bs-body-color: #212529;
+  --bs-body-color: #fff;
   --bs-body-bg: #fff;
 }
 
@@ -4168,6 +4166,7 @@ textarea.form-control-lg {
   padding-left: 0;
   margin-bottom: 0;
   list-style: none;
+  gap: 62px;
 }
 .navbar-nav .nav-link {
   padding-right: 0;
