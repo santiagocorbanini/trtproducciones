@@ -1,6 +1,5 @@
 import React from "react";
-import logo from "../../assets/img/logo.png";
-import newLogo from "../../assets/img/logonew2222.svg";
+import newLogo from "../../assets/img/logonew2222.png";
 import logoPampa from "../../assets/img/LogoPampaWhite.png";
 
 const Footer = () => {
