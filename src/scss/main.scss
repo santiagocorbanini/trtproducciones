@@ -1,0 +1,30 @@
+@import "../../node_modules/bootstrap/scss/functions";
+@import "../../node_modules/bootstrap/scss/variables";
+@import "../../node_modules/bootstrap/scss/mixins";
+
+@import '../components/Artistas/styles.module.scss';
+@import '../components/Contacto/styles.module.scss';
+@import '../components/Convocatoria/styles.module.scss';
+@import '../components/Eventos/styles.module.scss';
+@import '../components/Footer/styles.module.scss';
+@import '../components/Nav/styles.module.scss';
+@import '../components/Nosotros/styles.module.scss';
+@import '../components/Trabajos/styles.module.scss';
+@import '../components/Servicios/styles.module.scss';
+
+
+:root {
+    --dark-blue: #084298;
+}
+
+html,
+body {
+    font-family: 'Courier New', Courier, monospace;;
+    box-sizing: border-box;
+    background-image: url(../assets/img/fondo.png);
+}
+
+.page-section {
+    margin-top: 200px;
+    height: 100vh;
+}

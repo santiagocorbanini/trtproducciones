@@ -1,33 +1,37 @@
-import distribucion from '../../assets/img/distribucion.jpg'
-import contenido from '../../assets/img/contenidoAudiovisual.jpg'
-import estudios from '../../assets/img/estudios.jpg'
-import produccion from '../../assets/img/produccion.jpg'
+import React from "react";
+import Slider from "react-slick";
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
 
 const Trabajos = () => {
     return (
-        <section className="page-section bg-primary text-white mb-0 text-center" id="trabajos">
-
-                    <h6 className="page-section-heading text-center text-uppercase">Trabajos realizados</h6>
-
-                    <div className="container trabajos">
-                        <div className="col-lg-4 mb-5 mb-lg-0">
-                            <img className='w-50 min-vw-25' id="img-about" src={distribucion} alt="" srcSet="" />
-                        </div>
-
-                        <div className="col-lg-4 mb-5 mb-lg-0">
-                            <img className='w-50 min-vw-25' id="img-about" src={contenido} alt="" srcSet="" />
-                        </div>
-
-                        <div className="col-lg-4 mb-5 mb-lg-0">
-                            <img className='w-50 min-vw-25' id="img-about" src={estudios} alt="" srcSet="" />
-                        </div>
-
-                        <div className="col-lg-4 mb-5 mb-lg-0">
-                            <img className='w-50 min-vw-25' id="img-about" src={produccion} alt="" srcSet="" />
-                        </div>                      
-                    </div>
+        <section id="trabajos">
+        <div className="container d-flex align-items-center justify-content-center p-5">
+            <h2>Trabajos</h2>
+        </div>
+        <div className="container-fluid brands">
+        <Slider
+            autoplay={true}
+            slidesToShow={3}
+            autoplaySpeed={2000}
+            dots={false}
+        >
+            <div>
+            <img src="https://via.placeholder.com/200" alt="" />
+            </div>
+            <div>
+            <img src="https://via.placeholder.com/200" alt="" />
+            </div>
+            <div>
+            <img src="https://via.placeholder.com/200" alt="" />
+            </div>
+            <div>
+            <img src="https://via.placeholder.com/200" alt="" />
+            </div>
+        </Slider>
+        </div>
         </section>
-        );
-    };
+    );
+};
 
 export default Trabajos;

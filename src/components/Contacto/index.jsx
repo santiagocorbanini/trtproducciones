@@ -1,10 +1,8 @@
-import React from 'react';
-import { ContactUs } from './ContactUs';
+import React from "react"
+import { ContactUs } from "./ContactUs"
 
 const Contacto = () => {
-  return (
-    <ContactUs />
-  );
-};
+    return <ContactUs />
+}
 
-export default Contacto;
+export default Contacto

@@ -1,5 +1,5 @@
-import Carousel from "./Carousel";
-import Hero from "./Hero";
+import Carousel from "./Carousel"
+import Hero from "./Hero"
 
 const Home = () => {
     return (
@@ -8,7 +8,7 @@ const Home = () => {
                 <Hero />
             </header>
         </>
-    );
-};
+    )
+}
 
-export default Home;
+export default Home
