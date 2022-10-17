@@ -11,7 +11,7 @@ const Nav = () => {
         >
             <div className="container">
                 <button
-                    className="navbar-toggler text-uppercase font-weight-bold bg-primary text-white rounded"
+                    className="navbar-toggler text-uppercase font-weight-bold text-white rounded"
                     id="menu-text"
                     type="button"
                     data-bs-toggle="collapse"

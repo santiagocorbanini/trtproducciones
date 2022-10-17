@@ -1,7 +1,7 @@
 const Convocatoria = () => {
     return (
         <section
-            className="page-section bg-primary text-white mb-0 text-center"
+            className="page-section text-white mb-0 text-center"
             id="convocatoria"
         >
             <h6 className="page-section-heading text-center text-uppercase">

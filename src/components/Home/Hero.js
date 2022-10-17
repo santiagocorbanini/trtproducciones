@@ -2,7 +2,7 @@ import imagen3 from "../../assets/img/pngegg.png"
 
 const Hero = () => {
     return (
-        <section className="page-section bg-primary" id="hero">
+        <section className="page-section" id="hero">
             <div className="container">
                 <div className="row hero">
                     <div className="col-lg-6">

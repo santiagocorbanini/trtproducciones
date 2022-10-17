@@ -3,7 +3,7 @@ import React from "react"
 export const Nosotros = () => {
     return (
         <section
-            className="page-section bg-primary text-white mb-0 text-center"
+            className="page-section text-white mb-0 text-center"
             id="about"
         >
             {/*<!-- Imagen Nosotros-->*/}

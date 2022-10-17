@@ -6,7 +6,7 @@ import estudios from "../../assets/img/estudios.jpg"
 
 const Carousel = () => {
     return (
-        <section className="page-section bg-primary" id="carousel">
+        <section className="page-section" id="carousel">
             <div
                 id="carouselExampleControls"
                 className="carousel slide"

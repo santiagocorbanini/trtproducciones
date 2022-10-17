@@ -12,19 +12,29 @@
 @import '../components/Trabajos/styles.module.scss';
 @import '../components/Servicios/styles.module.scss';
 
+@font-face {
+    font-family: "YRT Lucky Dog";
+    src: url(../../src/assets/font/YRTLuckyDog.otf);
+}
 
 :root {
-    --dark-blue: #084298;
+    --FirstColor: #ff254d;
+    --Principal-fuente: "Montserrat";
+    --Secundaria-fuente: "YRT Lucky Dog";  
 }
 
 html,
 body {
-    font-family: 'Courier New', Courier, monospace;;
+    font-family: var(--Principal-fuente);
     box-sizing: border-box;
     background-image: url(../assets/img/fondo.png);
 }
 
+.h6, .h6, h5, .h5, h4, .h4, h3, .h3, h2, .h2, h1, .h1 {
+    font-family: var(--Secundaria-fuente);
+    color: var(--FirstColor);
+}
+
 .page-section {
-    margin-top: 200px;
     height: 100vh;
 }
