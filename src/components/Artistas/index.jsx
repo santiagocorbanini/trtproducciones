@@ -30,28 +30,12 @@ const Artistas = () => {
 
     return (
         <section className="page-section portfolio bg-secundary" id="Artistas">
-            {/* Test para usar ---> useMediaQuery
-        <div>
-            <h1>Device Test!</h1>
-            {isDesktopOrLaptop && <p>You are a desktop or laptop</p>}
-            {isBigScreen && <p>You have a huge screen</p>}
-            {isTabletOrMobile && <p>You are a tablet or mobile phone</p>}
-            <p>Your are in {isPortrait ? "portrait" : "landscape"} orientation</p>
-            {isRetina && <p>You are retina</p>}
-        </div> */}
             <div className="container">
                 {/*<!-- Portfolio Section Heading-->*/}
-                <h2 className="page-section-heading text-center text-uppercase mb-0">
+                <h2 className="page-section-heading text-center mb-0">
                     Artistas
                 </h2>
-                {/*<!-- Icon Divider -->*/}
-                <div className="divider-custom">
-                    <div className="divider-custom-line"></div>
-                    <div className="divider-custom-icon">
-                        <i className="fas fa-microphone"></i>
-                    </div>
-                    <div className="divider-custom-line"></div>
-                </div>
+
                 {/*<!-- Portfolio Grid Items-->*/}
                 <div className="row justify-content-center">
                     {/*<!-- Portfolio Item 1 -->*/}

@@ -7,17 +7,10 @@ const Eventos = () => {
         <section className="page-section portfolio bg-secundary" id="events">
             <div className="container">
                 {/*<!-- Portfolio Section Heading-->*/}
-                <h2 className="page-section-heading text-center text-uppercase mt-5">
+                <h2 className="page-section-heading text-center mt-5">
                     Eventos
                 </h2>
-                {/*<!-- Icon Divider -->*/}
-                <div className="divider-custom">
-                    <div className="divider-custom-line"></div>
-                    <div className="divider-custom-icon">
-                        <i className="far fa-calendar-alt"></i>
-                    </div>
-                    <div className="divider-custom-line"></div>
-                </div>
+
                 {/*<!-- Portfolio Grid Items-->*/}
                 <div className="row justify-content-center">
                     {/*<!-- Portfolio Item 1 -->*/}

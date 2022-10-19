@@ -95,17 +95,10 @@ export const ContactUs = () => {
         <section className="page-section" id="contact">
             <div className="container">
                 {/*<!-- Contact Section Heading-->*/}
-                <h2 className="page-section-heading text-center text-uppercase mb-0">
+                <h2 className="page-section-heading text-center mb-0">
                     Contacto
                 </h2>
-                {/*<!-- Icon Divider-->*/}
-                <div className="divider-custom">
-                    <div className="divider-custom-line"></div>
-                    <div className="divider-custom-icon">
-                        <i className="fas fa-envelope"></i>
-                    </div>
-                    <div className="divider-custom-line"></div>
-                </div>
+
                 {/*<!-- Contact Section Form-->*/}
                 <div className="row justify-content-center">
                     <div className="col-lg-8 col-xl-7">
