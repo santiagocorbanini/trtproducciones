@@ -9,7 +9,7 @@ const Nav = () => {
         <nav className="navbar navbar-expand-lg fixed-top navbarcustom">
             <div className="container">
                 <button
-                    className="navbar-toggler text-uppercase font-weight-bold text-white rounded"
+                    className="navbar-toggler text-uppercase font-weight-bold text-white"
                     id="menu-text"
                     type="button"
                     data-bs-toggle="collapse"
@@ -18,7 +18,7 @@ const Nav = () => {
                     aria-expanded="false"
                     aria-label="Toggle navigation"
                 >
-                    Menu
+                    =
                 </button>
                 <div className="collapse navbar-collapse" id="navbarResponsive">
                     <ul className="navbar-nav">
@@ -28,6 +28,8 @@ const Nav = () => {
                                 onClick={() => {
                                     navigate("/eventos")
                                 }}
+                                data-bs-toggle="collapse"
+                                data-bs-target="#navbarResponsive"
                             >
                                 Eventos
                             </button>
@@ -38,6 +40,8 @@ const Nav = () => {
                                 onClick={() => {
                                     navigate("/artistas")
                                 }}
+                                data-bs-toggle="collapse"
+                                data-bs-target="#navbarResponsive"
                             >
                                 Artistas
                             </button>
@@ -48,6 +52,8 @@ const Nav = () => {
                                 onClick={() => {
                                     navigate("/servicios")
                                 }}
+                                data-bs-toggle="collapse"
+                                data-bs-target="#navbarResponsive"
                             >
                                 Servicios
                             </button>
@@ -70,6 +76,8 @@ const Nav = () => {
                                 onClick={() => {
                                     navigate("/convocatoria")
                                 }}
+                                data-bs-toggle="collapse"
+                                data-bs-target="#navbarResponsive"
                             >
                                 Convocatoria
                             </button>
@@ -80,6 +88,8 @@ const Nav = () => {
                                 onClick={() => {
                                     navigate("/trabajos")
                                 }}
+                                data-bs-toggle="collapse"
+                                data-bs-target="#navbarResponsive"
                             >
                                 Trabajos
                             </button>
@@ -90,6 +100,8 @@ const Nav = () => {
                                 onClick={() => {
                                     navigate("/nosotros")
                                 }}
+                                data-bs-toggle="collapse"
+                                data-bs-target="#navbarResponsive"
                             >
                                 Nosotros
                             </button>

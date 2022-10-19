@@ -6,6 +6,27 @@
   gap: 64px;
 }
 
+@media only screen and (max-width: 350px) {
+  .navbar-nav {
+    gap: 0px;
+  }
+  #logo {
+    display: none;
+  }
+}
+
+@media only screen and (min-width:820px) {
+  #logo {
+    display:block;
+  }
+}
+
+.navbar-toggler:focus {
+  text-decoration: none;
+  outline: 0;
+  box-shadow: 0 0 0 0rem;
+}
+
 .navbarcustom {
   background-color: (var(--BlackColor));
 }
