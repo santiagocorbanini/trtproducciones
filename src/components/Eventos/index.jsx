@@ -7,7 +7,7 @@ const Eventos = () => {
         <section className="page-section portfolio bg-secundary" id="events">
             <div className="container">
                 {/*<!-- Portfolio Section Heading-->*/}
-                <h2 className="page-section-heading text-center mt-5">
+                <h2 className="page-section-heading text-center">
                     Eventos
                 </h2>
 

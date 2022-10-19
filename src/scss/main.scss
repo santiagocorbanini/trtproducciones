@@ -17,9 +17,13 @@
     src: url(../../src/assets/font/YRTLuckyDog.otf);
 }
 
+@import url('http://fonts.cdnfonts.com/css/montserrat');
+
 :root {
     --FirstColor: #ff254d;
-    --Principal-fuente: "Montserrat";
+    --BlackColor: #0e1111;
+    --WhiteColor: #fbfbfb;
+    --Principal-fuente: 'Montserrat', sans-serif;
     --Secundaria-fuente: "YRT Lucky Dog";  
 }
 
@@ -28,6 +32,7 @@ body {
     font-family: var(--Principal-fuente);
     box-sizing: border-box;
     background-image: url(../assets/img/fondo.png);
+    color: var(--WhiteColor);
 }
 
 .h6, .h6, h5, .h5, h4, .h4, h3, .h3, h2, .h2, h1, .h1 {
@@ -36,5 +41,6 @@ body {
 }
 
 .page-section {
-    height: 100vh;
+    min-height: 100vh;
+    padding-top: 50px;
 }

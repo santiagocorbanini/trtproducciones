@@ -2,10 +2,32 @@
     position: relative;
 }
 
+.navbar-nav {
+  gap: 64px;
+}
+
 .navbarcustom {
-  background-color: rgb(0, 0, 0) ;
+  background-color: (var(--BlackColor));
 }
 
 .navbar-expand-lg .navbar-collapse {
     justify-content: center;
+}
+
+.nav-link {
+  color: var(--WhiteColor);
+  font-weight: 600;
+}
+button {
+  background-color: (var(--BlackColor));
+  border: none;
+}
+
+.logo-container {
+  display: flex;
+  align-items: center;
+}
+
+#logo {
+  cursor: pointer;
 }

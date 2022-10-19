@@ -5,7 +5,7 @@ import "slick-carousel/slick/slick-theme.css";
 
 const Trabajos = () => {
     return (
-        <section id="trabajos">
+        <section className="page-section" id="trabajos">
         <div className="container d-flex align-items-center justify-content-center p-5">
             <h2>Trabajos</h2>
         </div>

@@ -6,9 +6,7 @@ import styles from "./styles.module.scss"
 const Nav = () => {
     const navigate = useNavigate()
     return (
-        <nav
-            className='navbar navbar-expand-lg fixed-top navbarcustom'
-        >
+        <nav className="navbar navbar-expand-lg fixed-top navbarcustom">
             <div className="container">
                 <button
                     className="navbar-toggler text-uppercase font-weight-bold text-white rounded"
@@ -54,9 +52,18 @@ const Nav = () => {
                                 Servicios
                             </button>
                         </li>
-                        <a className="navbar-brand" href="#events">
-                            <img src={newLogo} alt={logo} id="logo" />
-                        </a>
+                        <div className="logo-container">
+                            <img
+                                src={newLogo}
+                                alt={logo}
+                                id="logo"
+                                width={132}
+                                height={23}
+                                onClick={() => {
+                                    navigate("/eventos")
+                                }}
+                            />
+                        </div>
                         <li className="nav-item mx-0 mx-lg-1">
                             <button
                                 className="nav-link py-3 px-0 px-lg-2"
@@ -87,7 +94,7 @@ const Nav = () => {
                                 Nosotros
                             </button>
                         </li>
-                        <li className="nav-item mx-0 mx-lg-1 ms-auto">
+                        {/*                         <li className="nav-item mx-0 mx-lg-1 ms-auto">
                             <button
                                 className="nav-link py-3 px-0 px-lg-2"
                                 onClick={() => {
@@ -96,7 +103,7 @@ const Nav = () => {
                             >
                                 Contacto
                             </button>
-                        </li>
+                        </li> */}
                     </ul>
                 </div>
             </div>
