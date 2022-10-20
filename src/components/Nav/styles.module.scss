@@ -6,7 +6,7 @@
   gap: 64px;
 }
 
-@media only screen and (max-width: 350px) {
+@media only screen and (max-width: 1224px) {
   .navbar-nav {
     gap: 0px;
   }
@@ -15,7 +15,7 @@
   }
 }
 
-@media only screen and (min-width:820px) {
+@media only screen and (min-width:1224px) {
   #logo {
     display:block;
   }

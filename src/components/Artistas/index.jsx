@@ -1,7 +1,7 @@
 import artist from "../../assets/img/artist.png"
 import ToggleDisplay from "react-toggle-display"
 import { useState } from "react"
-import { useMediaQuery } from "react-responsive"
+import { MediaQueries } from "../../const/BreakpointsMediaQueries"
 
 const Artistas = () => {
     const [show, setShow] = useState("")
@@ -22,11 +22,7 @@ const Artistas = () => {
 
     console.log(redes)
 
-    //const isDesktopOrLaptop = useMediaQuery({query: "(min-width: 1224px)",});
-    //const isBigScreen = useMediaQuery({ query: "(min-width: 1824px)" });
-    const isTabletOrMobile = useMediaQuery({ query: "(max-width: 1224px)" })
-    //const isPortrait = useMediaQuery({ query: "(orientation: portrait)" });
-    //const isRetina = useMediaQuery({ query: "(min-resolution: 2dppx)" });
+    const { isTabletOrMobile } = MediaQueries();
 
     return (
         <section className="page-section portfolio bg-secundary" id="Artistas">
