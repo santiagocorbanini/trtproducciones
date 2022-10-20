@@ -1,3 +1,5 @@
+import cara1 from "../../assets/img/nosotros1.png"
+
 import React from "react"
 
 export const Nosotros = () => {
@@ -8,9 +10,9 @@ export const Nosotros = () => {
         >
             {/*<!-- Imagen Nosotros-->*/}
             <div className="container">
-                <div className="row">
+                <div className="row row-nosotros">
                     {/*<!-- Nosotros Descripcion -->*/}
-                    <div id="nosotros">
+                    <div className="nosotros">
                         <div>
                             <p className="px-2 text-center">
                                 22:22 es el puente artístico entre Latinoamérica
@@ -36,22 +38,13 @@ export const Nosotros = () => {
 
                 <div className="row justify-content-center">
                     <div class="col-lg-3">
-                        <svg
-                            class="bd-placeholder-img rounded-circle"
-                            width="140"
-                            height="140"
-                            xmlns="http://www.w3.org/2000/svg"
-                            role="img"
-                            aria-label="Placeholder: 140x140"
-                            preserveAspectRatio="xMidYMid slice"
-                            focusable="false"
-                        >
-                            <title>Placeholder</title>
-                            <rect width="100%" height="100%" fill="#777"></rect>
-                            <text x="50%" y="50%" fill="#777" dy=".3em">
-                                140x140
-                            </text>
-                        </svg>
+                        <img
+                                src={cara1}
+                                alt={cara1}
+                                id="cara1"
+                                width={140}
+                                height={140}
+                        />
                         <h4>Agustin</h4>
                         <p>
                             Fue conductor y productor de la radio, como así
@@ -81,22 +74,13 @@ export const Nosotros = () => {
                         <p>agustin@2222agencia.com</p>
                     </div>
                     <div class="col-lg-3">
-                        <svg
-                            class="bd-placeholder-img rounded-circle"
-                            width="140"
-                            height="140"
-                            xmlns="http://www.w3.org/2000/svg"
-                            role="img"
-                            aria-label="Placeholder: 140x140"
-                            preserveAspectRatio="xMidYMid slice"
-                            focusable="false"
-                        >
-                            <title>Placeholder</title>
-                            <rect width="100%" height="100%" fill="#777"></rect>
-                            <text x="50%" y="50%" fill="#777" dy=".3em">
-                                140x140
-                            </text>
-                        </svg>
+                        <img
+                                src={cara1}
+                                alt={cara1}
+                                id="cara1"
+                                width={140}
+                                height={140}
+                        />
                         <h4>Luciano</h4>
                         <p>
                             Experto en management de artistas, con 8 años de
@@ -146,22 +130,13 @@ export const Nosotros = () => {
                         <p>luciano@2222agencia.com</p>
                     </div>
                     <div class="col-lg-3">
-                        <svg
-                            class="bd-placeholder-img rounded-circle"
-                            width="140"
-                            height="140"
-                            xmlns="http://www.w3.org/2000/svg"
-                            role="img"
-                            aria-label="Placeholder: 140x140"
-                            preserveAspectRatio="xMidYMid slice"
-                            focusable="false"
-                        >
-                            <title>Placeholder</title>
-                            <rect width="100%" height="100%" fill="#777"></rect>
-                            <text x="50%" y="50%" fill="#777" dy=".3em">
-                                140x140
-                            </text>
-                        </svg>
+                        <img
+                                src={cara1}
+                                alt={cara1}
+                                id="cara1"
+                                width={140}
+                                height={140}
+                        />
 
                         <h4>Jonathan (advisor)</h4>
                         <p>
