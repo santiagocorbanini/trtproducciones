@@ -1,0 +1,25 @@
+.meses {
+    flex-direction: row;
+    display: flex;
+    justify-content: center;
+}
+.eventos {
+    flex-direction: row;
+    display: flex;
+}
+.eventos-mes {
+    font-size: 72px;
+    font-family: 'YRT Lucky Dog';
+    margin-right: 70px;
+}
+.artista-nombre {
+    font-size: 47px;
+    font-family: 'Montserrat';
+}
+.evento-1 {
+    width: 230px;
+    word-wrap: break-word;
+}
+.meses {
+    margin-bottom: 40px;
+}
