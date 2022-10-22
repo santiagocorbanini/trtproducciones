@@ -23,10 +23,10 @@ const Nav = () => {
                 </button>
                 <div className="collapse navbar-collapse" id="navbarResponsive">
                     <ul className="navbar-nav">
-                        <li className="nav-item mx-0 mx-lg-1">
+                        <li className="nav-link mx-0 mx-lg-1">
                             {isTabletOrMobile ? (
                                 <button
-                                    className="nav-link py-3 px-0 px-lg-2"
+                                    className="nav-link"
                                     onClick={() => {
                                         navigate("/eventos")
                                     }}
@@ -37,7 +37,7 @@ const Nav = () => {
                                 </button>
                             ) : (
                                 <button
-                                    className="nav-link py-3 px-0 px-lg-2"
+                                    className="nav-link"
                                     onClick={() => {
                                         navigate("/eventos")
                                     }}
@@ -46,10 +46,10 @@ const Nav = () => {
                                 </button>
                             )}
                         </li>
-                        <li className="nav-item mx-0 mx-lg-1">
+                        <li className="nav-link mx-0 mx-lg-1">
                         {isTabletOrMobile ? (
                                 <button
-                                    className="nav-link py-3 px-0 px-lg-2"
+                                    className="nav-link"
                                     onClick={() => {
                                         navigate("/artistas")
                                     }}
@@ -60,7 +60,7 @@ const Nav = () => {
                                 </button>
                             ) : (
                                 <button
-                                    className="nav-link py-3 px-0 px-lg-2"
+                                    className="nav-link"
                                     onClick={() => {
                                         navigate("/artistas")
                                     }}
@@ -69,10 +69,10 @@ const Nav = () => {
                                 </button>
                             )}
                         </li>
-                        <li className="nav-item mx-0 mx-lg-1">
+                        <li className="nav-link mx-0 mx-lg-1">
                         {isTabletOrMobile ? (
                                 <button
-                                    className="nav-link py-3 px-0 px-lg-2"
+                                    className="nav-link"
                                     onClick={() => {
                                         navigate("/servicios")
                                     }}
@@ -83,7 +83,7 @@ const Nav = () => {
                                 </button>
                             ) : (
                                 <button
-                                    className="nav-link py-3 px-0 px-lg-2"
+                                    className="nav-link"
                                     onClick={() => {
                                         navigate("/servicios")
                                     }}
@@ -104,10 +104,10 @@ const Nav = () => {
                                 }}
                             />
                         </div>
-                        <li className="nav-item mx-0 mx-lg-1">
+                        <li className="nav-link mx-0 mx-lg-1">
                         {isTabletOrMobile ? (
                                 <button
-                                    className="nav-link py-3 px-0 px-lg-2"
+                                    className="nav-link"
                                     onClick={() => {
                                         navigate("/convocatoria")
                                     }}
@@ -118,7 +118,7 @@ const Nav = () => {
                                 </button>
                             ) : (
                                 <button
-                                    className="nav-link py-3 px-0 px-lg-2"
+                                    className="nav-link"
                                     onClick={() => {
                                         navigate("/convocatoria")
                                     }}
@@ -127,10 +127,10 @@ const Nav = () => {
                                 </button>
                             )}
                         </li>
-                        <li className="nav-item mx-0 mx-lg-1">
+                        <li className="nav-link mx-0 mx-lg-1">
                         {isTabletOrMobile ? (
                                 <button
-                                    className="nav-link py-3 px-0 px-lg-2"
+                                    className="nav-link"
                                     onClick={() => {
                                         navigate("/trabajos")
                                     }}
@@ -141,7 +141,7 @@ const Nav = () => {
                                 </button>
                             ) : (
                                 <button
-                                    className="nav-link py-3 px-0 px-lg-2"
+                                    className="nav-link"
                                     onClick={() => {
                                         navigate("/trabajos")
                                     }}
@@ -150,10 +150,10 @@ const Nav = () => {
                                 </button>
                             )}
                         </li>
-                        <li className="nav-item mx-0 mx-lg-1">
+                        <li className="nav-link mx-0 mx-lg-1">
                         {isTabletOrMobile ? (
                                 <button
-                                    className="nav-link py-3 px-0 px-lg-2"
+                                    className="nav-link"
                                     onClick={() => {
                                         navigate("/nosotros")
                                     }}
@@ -164,7 +164,7 @@ const Nav = () => {
                                 </button>
                             ) : (
                                 <button
-                                    className="nav-link py-3 px-0 px-lg-2"
+                                    className="nav-link"
                                     onClick={() => {
                                         navigate("/nosotros")
                                     }}
@@ -175,7 +175,7 @@ const Nav = () => {
                         </li>
                         {/*                         <li className="nav-item mx-0 mx-lg-1 ms-auto">
                             <button
-                                className="nav-link py-3 px-0 px-lg-2"
+                                className="nav-link py-3 px-0"
                                 onClick={() => {
                                     navigate("/contacto")
                                 }}
