@@ -10,16 +10,48 @@
 .eventos-mes {
     font-size: 72px;
     font-family: 'YRT Lucky Dog';
-    margin-right: 70px;
+    width: 250px;
+    height: 200px;
 }
 .artista-nombre {
-    font-size: 47px;
+    font-size: 44px;
     font-family: 'Montserrat';
+    font-weight:700;
+    height: 140px;
 }
 .evento-1 {
     width: 230px;
     word-wrap: break-word;
+    margin-right: 30px;
+    
 }
 .meses {
     margin-bottom: 40px;
+    justify-content: flex-start;
+}
+.lugar-nombre {
+    background-color: white;
+    margin-bottom: 5px;
+    color: black;
+    font-size: 15px;
+    font-weight: 600;
+    width: 100%;
+}
+.lugar-fecha {
+    background-color: white;
+    margin-bottom: 5px;
+    color: black;
+    font-size: 15px;
+    font-weight: 600;
+    width: 100%;
+}
+.lugar-div {
+    display: flex;
+    align-items: end;
+    flex-direction: row;
+}
+
+.container-body {
+    padding-right: var(--bs-gutter-x, 3.75rem);
+    padding-left: var(--bs-gutter-x, 9.75rem);
 }

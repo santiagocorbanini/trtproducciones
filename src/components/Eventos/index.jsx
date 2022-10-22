@@ -1,17 +1,11 @@
-import imagen1 from "../../assets/img/guaso.jpg"
-import imagen3 from "../../assets/img/fundamentalista.jpg"
-import imagen22 from "../../assets/img/cruzando2.jpg"
+import iconoLugar from "../../assets/img/icono-lugar.svg"
+import iconoTicket from "../../assets/img/icono-ticket.svg"
 
 const Eventos = () => {
     return (
         <section className="page-section portfolio bg-secundary" id="events">
-            <div className="container">
-                {/*<!-- Portfolio Section Heading-->*/}
-                <h2 className="page-section-heading text-center">
-                    Eventos
-                </h2>
+            <div className="container container-body">
 
-                {/*<!-- Portfolio Grid Items-->*/}
                 <div className="meses">
                     <div className="eventos-mes">
                         OCT
@@ -19,40 +13,58 @@ const Eventos = () => {
                     <div className="eventos">
                         <div className="evento-1">
                             <div className="artista-nombre">
-                                <b>Hernan Cattaneo</b>
+                                Guasones
                             </div>
                             <div className="lugar">
-                                <div className="lugar-nombre">
-                                    barcelona, españa
+                                <div className="lugar-div">
+                                    <div className="lugar-nombre">
+                                        barcelona, españa
+                                    </div>
+                                    <img src={iconoLugar} width={30} height={30}/>
                                 </div>
-                                <div className="lugar-fecha">
-                                    18 
+                                <div className="lugar-div">
+                                    <div className="lugar-fecha">
+                                        Compra tu entrada
+                                    </div>
+                                    <img src={iconoTicket} width={30} height={30}/>
+                                </div>
+                            </div>
+                        </div>
+                        <div className="evento-1">
+                            <div className="artista-nombre" >
+                                Cruzando el charco
+                            </div>
+                            <div className="lugar">
+                                <div className="lugar-div">
+                                    <div className="lugar-nombre">
+                                        barcelona, españa
+                                    </div>
+                                    <img src={iconoLugar} width={30} height={30}/>
+                                </div>
+                                <div className="lugar-div">
+                                    <div className="lugar-fecha">
+                                        Compra tu entrada
+                                    </div>
+                                    <img src={iconoTicket} width={30} height={30}/>
                                 </div>
                             </div>
                         </div>
                         <div className="evento-1">
                             <div className="artista-nombre">
-                                <b>Hernan Cattaneo</b>
+                                Los Totora
                             </div>
                             <div className="lugar">
-                                <div className="lugar-nombre">
-                                    barcelona, españa
+                                <div className="lugar-div">
+                                    <div className="lugar-nombre">
+                                        barcelona, españa
+                                    </div>
+                                    <img src={iconoLugar} width={30} height={30}/>
                                 </div>
-                                <div className="lugar-fecha">
-                                    18 
-                                </div>
-                            </div>
-                        </div>
-                        <div className="evento-1">
-                            <div className="artista-nombre">
-                                <b>Hernan Cattaneo</b>
-                            </div>
-                            <div className="lugar">
-                                <div className="lugar-nombre">
-                                    barcelona, españa
-                                </div>
-                                <div className="lugar-fecha">
-                                    18 
+                                <div className="lugar-div">
+                                    <div className="lugar-fecha">
+                                        Compra tu entrada
+                                    </div>
+                                    <img src={iconoTicket} width={30} height={30}/>
                                 </div>
                             </div>
                         </div>
@@ -65,40 +77,39 @@ const Eventos = () => {
                         <div className="eventos">
                             <div className="evento-1">
                                 <div className="artista-nombre">
-                                    <b>Hernan Cattaneo</b>
+                                    Ciro
                                 </div>
                                 <div className="lugar">
-                                    <div className="lugar-nombre">
-                                        barcelona, españa
+                                    <div className="lugar-div">
+                                        <div className="lugar-nombre">
+                                            Gira España
+                                        </div>
+                                        <img src={iconoLugar} width={30} height={30}/>
                                     </div>
-                                    <div className="lugar-fecha">
-                                        18 
+                                    <div className="lugar-div">
+                                        <div className="lugar-fecha">
+                                            Próximamente
+                                        </div>
+                                        <img src={iconoTicket} width={30} height={30}/>
                                     </div>
                                 </div>
                             </div>
                             <div className="evento-1">
                                 <div className="artista-nombre">
-                                    <b>Hernan Cattaneo</b>
+                                    Colour Fools
                                 </div>
                                 <div className="lugar">
-                                    <div className="lugar-nombre">
-                                        barcelona, españa
+                                    <div className="lugar-div">
+                                        <div className="lugar-nombre">
+                                            barcelona, españa
+                                        </div>
+                                        <img src={iconoLugar} width={30} height={30}/>
                                     </div>
-                                    <div className="lugar-fecha">
-                                        18 
-                                    </div>
-                                </div>
-                            </div>
-                            <div className="evento-1">
-                                <div className="artista-nombre">
-                                    <b>Hernan Cattaneo</b>
-                                </div>
-                                <div className="lugar">
-                                    <div className="lugar-nombre">
-                                        barcelona, españa
-                                    </div>
-                                    <div className="lugar-fecha">
-                                        18 
+                                    <div className="lugar-div">
+                                        <div className="lugar-fecha">
+                                            Próximamente
+                                        </div>
+                                        <img src={iconoTicket} width={30} height={30}/>
                                     </div>
                                 </div>
                             </div>
@@ -111,40 +122,58 @@ const Eventos = () => {
                         <div className="eventos">
                             <div className="evento-1">
                                 <div className="artista-nombre">
-                                    <b>Hernan Cattaneo</b>
+                                    Polina Grace
                                 </div>
                                 <div className="lugar">
-                                    <div className="lugar-nombre">
-                                        barcelona, españa
+                                    <div className="lugar-div">
+                                        <div className="lugar-nombre">
+                                            barcelona, españa
+                                        </div>
+                                        <img src={iconoLugar} width={30} height={30}/>
                                     </div>
-                                    <div className="lugar-fecha">
-                                        18 
+                                    <div className="lugar-div">
+                                        <div className="lugar-fecha">
+                                            Próximamente
+                                        </div>
+                                        <img src={iconoTicket} width={30} height={30}/>
                                     </div>
                                 </div>
                             </div>
                             <div className="evento-1">
                                 <div className="artista-nombre">
-                                    <b>Hernan Cattaneo</b>
+                                    Morus Alba
                                 </div>
                                 <div className="lugar">
-                                    <div className="lugar-nombre">
-                                        barcelona, españa
+                                    <div className="lugar-div">
+                                        <div className="lugar-nombre">
+                                            Sala Apolo, Barcelona
+                                        </div>
+                                        <img src={iconoLugar} width={30} height={30}/>
                                     </div>
-                                    <div className="lugar-fecha">
-                                        18 
+                                    <div className="lugar-div">
+                                        <div className="lugar-fecha">
+                                            Próximamente
+                                        </div>
+                                        <img src={iconoTicket} width={30} height={30}/>
                                     </div>
                                 </div>
                             </div>
                             <div className="evento-1">
                                 <div className="artista-nombre">
-                                    <b>Hernan Cattaneo</b>
+                                    Valentina Olguin
                                 </div>
                                 <div className="lugar">
-                                    <div className="lugar-nombre">
-                                        barcelona, españa
+                                    <div className="lugar-div">
+                                        <div className="lugar-nombre">
+                                            Sala Apolo, Barcelona
+                                        </div>
+                                        <img src={iconoLugar} width={30} height={30}/>
                                     </div>
-                                    <div className="lugar-fecha">
-                                        18 
+                                    <div className="lugar-div">
+                                        <div className="lugar-fecha">
+                                            Próximamente
+                                        </div>
+                                        <img src={iconoTicket} width={30} height={30}/>
                                     </div>
                                 </div>
                             </div>
