@@ -1,7 +1,7 @@
 const Servicios = () => {
     return (
         <section className="page-section text-white mb-0 text-center" id="services">
-            <div className="container">
+            <div className="container container-body">
                 {/*<!-- 1 -->*/}
 
                 <div className="row justify-content-center">

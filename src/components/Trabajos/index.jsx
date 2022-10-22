@@ -9,7 +9,7 @@ const Trabajos = () => {
         <div className="container d-flex align-items-center justify-content-center p-5">
             <h2>Trabajos</h2>
         </div>
-        <div className="container-fluid brands">
+        <div className="container-body container-fluid brands">
         <Slider
             autoplay={true}
             slidesToShow={3}
