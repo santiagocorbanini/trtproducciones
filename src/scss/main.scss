@@ -52,3 +52,22 @@ p {
     padding-right: var(--bs-gutter-x, 7.75rem);
     padding-left: var(--bs-gutter-x, 7.75rem);
 }
+
+.btn-primary {
+    color: #fff;
+    background-color: var(--FirstColor);
+    border-color: var(--FirstColor);
+ 
+    &:hover {
+      color: #fff;
+      background-color: #ca1435;
+      border-color: #ca1435;
+    }
+  
+    &:focus {
+      color: #fff;
+      background-color: var(--FirstColor);
+      border-color: var(--FirstColor);
+    }
+
+}

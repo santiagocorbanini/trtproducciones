@@ -4,9 +4,9 @@ const Convocatoria = () => {
             className="page-section text-white mb-0 text-center"
             id="convocatoria"
         >
-            <h6 className="page-section-heading text-center text-uppercase">
-                Convocatoria de bandas
-            </h6>
+            <div className="container d-flex align-items-center justify-content-center p-5">
+                <h2>Convocatoria de bandas</h2>
+            </div>
 
             <div className="container">
                 <p className="px-2 text-center">
@@ -22,8 +22,11 @@ const Convocatoria = () => {
                 className="btn btn-primary btn-xl"
                 id="submitConvocatoria"
                 type="submit"
+                /* 
+                https://docs.google.com/forms/d/1aAyUGXDJLOVD8ADqXsVkYU5GgLlrbG1VgjRKr5UA308/edit
+                */ 
             >
-                link
+                registro
             </button>
         </section>
     )

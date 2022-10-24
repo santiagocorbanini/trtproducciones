@@ -2,6 +2,8 @@ import artist from "../../assets/img/artist.png"
 import ToggleDisplay from "react-toggle-display"
 import { useState } from "react"
 import { MediaQueries } from "../../const/BreakpointsMediaQueries"
+import iconoSpotify from "../../assets/img/spotify-icon.svg"
+import iconoInstagram from "../../assets/img/icon-instagram.svg"
 
 const Artistas = () => {
     const [show, setShow] = useState("")
@@ -81,26 +83,19 @@ const Artistas = () => {
                                         Argentina en 2010 decidió quedarse con
                                         Ciro.2​
                                     </p>
-                                    <a
+                                    <a  className="iconos-redes"
                                         href="https://www.pampacode.com"
                                         target={"_blank"}
                                         rel={"noreferrer"}
                                     >
-                                        <i className="fab fa-fw fa-instagram fa-lg"></i>
+                                        <img src={iconoSpotify} width={40} height={40}/>
                                     </a>
-                                    <a
+                                    <a  className="iconos-redes"
                                         href="https://www.pampacode.com"
                                         target={"_blank"}
                                         rel={"noreferrer"}
                                     >
-                                        <i className="fab fa-fw fa-instagram fa-lg"></i>
-                                    </a>
-                                    <a
-                                        href="https://www.pampacode.com"
-                                        target={"_blank"}
-                                        rel={"noreferrer"}
-                                    >
-                                        <i className="fab fa-fw fa-instagram fa-lg"></i>
+                                        <img src={iconoInstagram} width={40} height={40}/>
                                     </a>
                                 </div>
                             )}

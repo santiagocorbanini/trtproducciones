@@ -43,15 +43,15 @@
 }
 .nav-link:active {
     color: #ca1435 !important;
-  }
-  .nav-link:hover {
-    color: (var(--FirstColor));
-  }
-  .nav-link:focus {
+}
+.nav-link:hover {
+  color: (var(--FirstColor));
+}
+.nav-link:focus {
     color: white;
     border-bottom: 1px solid white;
     padding-bottom: 2px;
-  }
+}
 button {
   background-color: (var(--BlackColor));
   border: none;
