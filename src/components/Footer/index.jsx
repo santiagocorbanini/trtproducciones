@@ -2,10 +2,12 @@ import React from "react"
 import newLogo from "../../assets/img/logonew2222.png"
 import logoPampa from "../../assets/img/LogoPampaWhite.png"
 import styles from "./styles.module.scss"
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
+
 
 const Footer = () => {
     return (
-        <footer className='footer text-center'>
+        <footer className="footer text-center">
             <div className="container">
                 <div className="row">
                     {/*<!-- Footer Location
@@ -20,7 +22,11 @@ const Footer = () => {
                     -->*/}
                     {/*<!-- Footer Social Icons-->*/}
                     <div className="col-lg-6 mb-5 mb-lg-0">
-                        <a href="https://www.pampacode.com" target={"_blank"}>
+                        <a
+                            href="https://www.pampacode.com"
+                            target={"_blank"}
+                            rel="noreferrer"
+                        >
                             <img src={logoPampa} alt="Pampacode" width={102} />
                         </a>
                         <p className="lead mb-0">
@@ -31,6 +37,7 @@ const Footer = () => {
                             className="btn btn-outline-light btn-social mx-1 mt-3"
                             href="https://www.instagram.com/pampacode"
                             target={"_blank"}
+                            rel="noreferrer"
                         >
                             <i className="fab fa-fw fa-instagram"></i>
                         </a>
@@ -38,6 +45,7 @@ const Footer = () => {
                             className="btn btn-outline-light btn-social mx-1 mt-3"
                             href="https://www.pampacode.com"
                             target={"_blank"}
+                            rel="noreferrer"
                         >
                             <i className="fas fa-fw fa-globe"></i>
                         </a>
@@ -56,6 +64,7 @@ const Footer = () => {
                             className="btn btn-outline-light btn-social mx-1 mt-3"
                             href="https://www.instagram.com/2222agencia/"
                             target={"_blank"}
+                            rel="noreferrer"
                         >
                             <i className="fab fa-fw fa-instagram"></i>
                         </a>
@@ -63,6 +72,7 @@ const Footer = () => {
                             className="btn btn-outline-light btn-social mx-1 mt-3"
                             href="https://wa.me/+34667569323"
                             target={"_blank"}
+                            rel="noreferrer"
                         >
                             <i className="fab fa-fw fa-whatsapp"></i>
                         </a>

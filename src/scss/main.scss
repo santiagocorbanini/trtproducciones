@@ -52,3 +52,17 @@ p {
     padding-right: var(--bs-gutter-x, 7.75rem);
     padding-left: var(--bs-gutter-x, 7.75rem);
 }
+
+@media only screen and (max-width:1224px) {
+    .container-body {
+        padding-right: 2rem;
+        padding-left: 2rem;
+    }
+  }
+
+// Definir estilos de botónes 
+
+.btn-primary {
+    color: #ff254d!important;
+    background-color: white!important;
+}

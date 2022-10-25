@@ -1,0 +1,15 @@
+.title-artist {
+    font-family: var(--Principal-fuente) !important;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: white;
+    min-height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#icon:hover{
+    color: white;
+    transition:120ms ease-in;
+}
