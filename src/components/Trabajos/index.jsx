@@ -6,9 +6,10 @@ import "slick-carousel/slick/slick-theme.css";
 const Trabajos = () => {
     return (
         <section className="page-section" id="trabajos">
-        <div className="container d-flex align-items-center justify-content-center p-5">
-            <h2>Trabajos</h2>
+        <div className="container d-flex align-items-center justify-content-center mb-4">
+            <h2>En construcción</h2>
         </div>
+        {/*
         <div className="container-body container-fluid brands">
         <Slider
             autoplay={true}
@@ -30,6 +31,7 @@ const Trabajos = () => {
             </div>
         </Slider>
         </div>
+        */}
         </section>
     );
 };

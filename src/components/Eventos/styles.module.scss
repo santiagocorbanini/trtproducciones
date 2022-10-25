@@ -50,3 +50,13 @@
     align-items: end;
     flex-direction: row;
 }
+
+@media only screen and (max-width:992px){
+    .meses {
+        display: flex;
+        flex-direction: column;
+    }
+    .eventos-mes {
+        height: 100px
+    }
+}

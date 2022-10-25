@@ -11,3 +11,9 @@
 .justify-content-center {
     justify-content: space-around !important;
 }
+
+@media only screen and (max-width:992px){
+    .nosotros {
+        width: 100%; 
+    }
+}

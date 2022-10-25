@@ -6,6 +6,34 @@ const Eventos = () => {
         <section className="page-section portfolio bg-secundary" id="events">
             <div className="container container-body">
 
+            <div className="meses">
+                    <div className="eventos-mes">
+                        NOV
+                    </div>
+                    <div className="eventos">
+                        <div className="evento-1">
+                            <div className="artista-nombre">
+                                Ciro
+                            </div>
+                            <div className="lugar">
+                                <div className="lugar-div">
+                                    <div className="lugar-nombre">
+                                        Gira españa
+                                    </div>
+                                    <img src={iconoLugar} width={30} height={30}/>
+                                </div>
+                                <div className="lugar-div">
+                                    <div className="lugar-fecha">
+                                        Compra tu entrada
+                                    </div>
+                                    <img src={iconoTicket} width={30} height={30}/>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                {/*
                 <div className="meses">
                     <div className="eventos-mes">
                         OCT
@@ -73,8 +101,8 @@ const Eventos = () => {
                 <div className="meses">
                     <div className="eventos-mes">
                             NOV
-                        </div>
-                        <div className="eventos">
+                    </div>
+                    <div className="eventos">
                             <div className="evento-1">
                                 <div className="artista-nombre">
                                     Ciro
@@ -113,13 +141,13 @@ const Eventos = () => {
                                     </div>
                                 </div>
                             </div>
-                        </div>
                     </div>
+                </div>
                 <div className="meses">
                     <div className="eventos-mes">
                             DIC
-                        </div>
-                        <div className="eventos">
+                    </div>
+                    <div className="eventos">
                             <div className="evento-1">
                                 <div className="artista-nombre">
                                     Polina Grace
@@ -177,8 +205,9 @@ const Eventos = () => {
                                     </div>
                                 </div>
                             </div>
-                        </div>
                     </div>
+                </div>
+                */}
             </div>
         </section>
     )

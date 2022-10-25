@@ -4,7 +4,7 @@ const Convocatoria = () => {
             className="page-section text-white mb-0 text-center"
             id="convocatoria"
         >
-            <div className="container d-flex align-items-center justify-content-center p-5">
+            <div className="container d-flex align-items-center justify-content-center mb-4">
                 <h2>Convocatoria de bandas</h2>
             </div>
 

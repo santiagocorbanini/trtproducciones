@@ -1,13 +1,14 @@
-import artist from "../../assets/img/artist.png"
 import ToggleDisplay from "react-toggle-display"
 import { useState } from "react"
 import { MediaQueries } from "../../const/BreakpointsMediaQueries"
-import ValentinaOlguin from "../../assets/img/artistas/ValentinaOlguin.jpg"
-import MorusAlba from "../../assets/img/artistas/MorusAlba.jpg"
-import PolinaGrace from "../../assets/img/artistas/PolinaGrace.jpg"
-import Kanela from "../../assets/img/artistas/Kanela.jpg"
-import TheColorFools from "../../assets/img/artistas/TheColorFools.jpg"
+import ValentinaOlguin from "../../assets/img/artistas/Valentina-Olguin-22_22.png"
+import MorusAlba from "../../assets/img/artistas/Morus-Alba-22_22.png"
+import PolinaGrace from "../../assets/img/artistas/Polina-Grace-22_22.png"
+import Kanela from "../../assets/img/artistas/Kanela-22_22.png"
+import TheColorFools from "../../assets/img/artistas/The-Colour-Fools-22_22.png"
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
+import iconoInstagram from "../../assets/img/icono-instagram.svg"
+import iconoSpotify from "../../assets/img/icono-spotify.svg"
 
 const Artistas = () => {
     const [show, setShow] = useState("")
@@ -36,7 +37,7 @@ const Artistas = () => {
         <section className="page-section portfolio bg-secundary" id="Artistas">
             <div className="container container-body">
                 {/*<!-- Portfolio Section Heading-->*/}
-                <h2 className="page-section-heading text-center mb-0">
+                <h2 className="page-section-heading text-center mb-4">
                     Artistas
                 </h2>
 
@@ -48,13 +49,31 @@ const Artistas = () => {
                             <img
                                 className="img-fluid"
                                 src={ValentinaOlguin}
-                                width={400}
-                                height={400}
+                                width={500}
+                                height={500}
                                 alt="..."
                             />
                             <h4 className="m-2 title-artist">
                                 Valentina Olguin
                             </h4>
+                            <div className="redes-sociales container d-flex justify-content-around">
+                            
+                                <a
+                                    href="https://www.instagram.com/morus.alba.wav/"
+                                    target={"_blank"}
+                                    rel={"noreferrer"}
+                                >
+                                    <img src={iconoInstagram} width={40} height={40}/>
+                                </a>
+                                <a
+                                    href="https://open.spotify.com/artist/2TtsYaNj41ilhQDMNuAb5w?si=sG6Tai5xTbqaq9m0VOA_dw"
+                                    target={"_blank"}
+                                    rel={"noreferrer"}
+                                >
+                                    <img src={iconoSpotify} width={40} height={40}/>
+                                </a>
+                            </div>
+                            {/*
                             {isTabletOrMobile ? (
                                 <>
                                     <button
@@ -92,13 +111,9 @@ const Artistas = () => {
                                                     href="https://www.instagram.com/valentinaolguin_/"
                                                     target={"_blank"}
                                                     rel={"noreferrer"}
+                                                    src={iconoInstagram} width={30} height={30}
                                                 >
-                                                    <FontAwesomeIcon
-                                                        icon="fa-brands fa-instagram"
-                                                        size="3x"
-                                                        id="icon"
-                                                        color="#ff254d"
-                                                    />
+                                                    <img src={iconoInstagram} width={30} height={30}/>
                                                 </a>
                                                 <a
                                                     href="https://open.spotify.com/artist/4bFcNlqngm7XibeU7HW3IR?si=6MER-jh3SaGndPTuqdc3gQ"
@@ -138,12 +153,7 @@ const Artistas = () => {
                                             target={"_blank"}
                                             rel={"noreferrer"}
                                         >
-                                            <FontAwesomeIcon
-                                                icon="fa-brands fa-instagram"
-                                                size="2x"
-                                                id="icon"
-                                                color="#ff254d"
-                                            />
+                                            <img src={iconoInstagram} width={40} height={40}/>
                                         </a>
                                         <a
                                             href="https://open.spotify.com/artist/4bFcNlqngm7XibeU7HW3IR?si=6MER-jh3SaGndPTuqdc3gQ"
@@ -160,6 +170,7 @@ const Artistas = () => {
                                     </div>
                                 </div>
                             )}
+                            */}
                         </div>
                     </div>
                     {/*<!-- END Portfolio Item 1 -->*/}
@@ -173,111 +184,22 @@ const Artistas = () => {
                                 alt="..."
                             />
                             <h4 className="m-2 title-artist">Morus Alba</h4>
-                            {isTabletOrMobile ? (
-                                <>
-                                    <button
-                                        className="btn btn-primary m-4 px-4 py-2"
-                                        data-bs-toggle="collapse"
-                                        href="#artista2"
-                                        aria-expanded="false"
-                                        aria-controls="artista2"
-                                    >
-                                        Ver Más
-                                    </button>
-                                    <ToggleDisplay show={!show}>
-                                        <div
-                                            class="collapse multi-collapse"
-                                            id="artista2"
-                                        >
-                                            <p>
-                                                Su carrera como solista comienza
-                                                editando el disco Espejos
-                                                recibiendo buenas críticas y
-                                                ventas. En 2010, nuevamente le
-                                                toca ser soporte, esta vez del
-                                                artista solista más exitoso del
-                                                mundo en la historia de la
-                                                música popular (según el Libro
-                                                Guiness de los Records), Paul
-                                                McCartney. Este, tras escuchar
-                                                todos las de artistas que tenía
-                                                como opciones soporte para sus
-                                                shows en Argentina en 2010
-                                                decidió quedarse con Ciro.2​
-                                            </p>
-                                            <div className="container d-flex justify-content-center p-5">
-                                                <a
-                                                    href="https://www.instagram.com/morus.alba.wav/"
-                                                    target={"_blank"}
-                                                    rel={"noreferrer"}
-                                                >
-                                                    <FontAwesomeIcon
-                                                        icon="fa-brands fa-instagram"
-                                                        size="3x"
-                                                        id="icon"
-                                                        color="#ff254d"
-                                                    />
-                                                </a>
-                                                <a
-                                                    href="https://open.spotify.com/artist/2TtsYaNj41ilhQDMNuAb5w?si=sG6Tai5xTbqaq9m0VOA_dw"
-                                                    target={"_blank"}
-                                                    rel={"noreferrer"}
-                                                >
-                                                    <FontAwesomeIcon
-                                                        icon="fa-brands fa-spotify"
-                                                        size="3x"
-                                                        id="icon"
-                                                        color="#ff254d"
-                                                    />
-                                                </a>
-                                            </div>
-                                        </div>
-                                    </ToggleDisplay>
-                                </>
-                            ) : (
-                                <div>
-                                    <p>
-                                        Su carrera como solista comienza
-                                        editando el disco Espejos recibiendo
-                                        buenas críticas y ventas. En 2010,
-                                        nuevamente le toca ser soporte, esta vez
-                                        del artista solista más exitoso del
-                                        mundo en la historia de la música
-                                        popular (según el Libro Guiness de los
-                                        Records), Paul McCartney. Este, tras
-                                        escuchar todos las de artistas que tenía
-                                        como opciones soporte para sus shows en
-                                        Argentina en 2010 decidió quedarse con
-                                        Ciro.2​
-                                    </p>
-                                    <div className="container d-flex justify-content-around">
+                            <div className="redes-sociales container d-flex justify-content-around">
                                         <a
                                             href="https://www.instagram.com/morus.alba.wav/"
                                             target={"_blank"}
                                             rel={"noreferrer"}
                                         >
-                                            <FontAwesomeIcon
-                                                icon="fa-brands fa-instagram"
-                                                size="2x"
-                                                id="icon"
-                                                color="#ff254d"
-                                            />
+                                            <img src={iconoInstagram} width={40} height={40}/>
                                         </a>
                                         <a
                                             href="https://open.spotify.com/artist/2TtsYaNj41ilhQDMNuAb5w?si=sG6Tai5xTbqaq9m0VOA_dw"
                                             target={"_blank"}
                                             rel={"noreferrer"}
                                         >
-                                            <FontAwesomeIcon
-                                                icon="fa-brands fa-spotify"
-                                                size="2x"
-                                                id="icon"
-                                                color="#ff254d"
-                                            />
+                                            <img src={iconoSpotify} width={40} height={40}/>
                                         </a>
-                                    </div>
-                                </div>
-                            )}
+                            </div>
                         </div>
                     </div>
                     {/*<!-- END Portfolio Item 2 -->*/}
@@ -290,111 +212,22 @@ const Artistas = () => {
                                 alt="..."
                             />
                             <h4 className="m-2 title-artist">Polina Grace</h4>
-                            {isTabletOrMobile ? (
-                                <>
-                                    <button
-                                        className="btn btn-primary m-4 px-4 py-2"
-                                        data-bs-toggle="collapse"
-                                        href="#artista3"
-                                        aria-expanded="false"
-                                        aria-controls="artista3"
-                                    >
-                                        Ver Más
-                                    </button>
-                                    <ToggleDisplay show={!show}>
-                                        <div
-                                            class="collapse multi-collapse"
-                                            id="artista3"
-                                        >
-                                            <p>
-                                                Su carrera como solista comienza
-                                                editando el disco Espejos
-                                                recibiendo buenas críticas y
-                                                ventas. En 2010, nuevamente le
-                                                toca ser soporte, esta vez del
-                                                artista solista más exitoso del
-                                                mundo en la historia de la
-                                                música popular (según el Libro
-                                                Guiness de los Records), Paul
-                                                McCartney. Este, tras escuchar
-                                                todos las de artistas que tenía
-                                                como opciones soporte para sus
-                                                shows en Argentina en 2010
-                                                decidió quedarse con Ciro.2​
-                                            </p>
-                                            <div className="container d-flex justify-content-center p-5">
-                                                <a
-                                                    href="https://www.instagram.com/polinagrace/"
-                                                    target={"_blank"}
-                                                    rel={"noreferrer"}
-                                                >
-                                                    <FontAwesomeIcon
-                                                        icon="fa-brands fa-instagram"
-                                                        size="3x"
-                                                        id="icon"
-                                                        color="#ff254d"
-                                                    />
-                                                </a>
-                                                <a
-                                                    href="https://open.spotify.com/artist/1NHTQwuk3e6uBGMd4V74ug?si=aHsFR3EhQReIvpPazfdijA"
-                                                    target={"_blank"}
-                                                    rel={"noreferrer"}
-                                                >
-                                                    <FontAwesomeIcon
-                                                        icon="fa-brands fa-spotify"
-                                                        size="3x"
-                                                        id="icon"
-                                                        color="#ff254d"
-                                                    />
-                                                </a>
-                                            </div>
-                                        </div>
-                                    </ToggleDisplay>
-                                </>
-                            ) : (
-                                <div>
-                                    <p>
-                                        Su carrera como solista comienza
-                                        editando el disco Espejos recibiendo
-                                        buenas críticas y ventas. En 2010,
-                                        nuevamente le toca ser soporte, esta vez
-                                        del artista solista más exitoso del
-                                        mundo en la historia de la música
-                                        popular (según el Libro Guiness de los
-                                        Records), Paul McCartney. Este, tras
-                                        escuchar todos las de artistas que tenía
-                                        como opciones soporte para sus shows en
-                                        Argentina en 2010 decidió quedarse con
-                                        Ciro.2​
-                                    </p>
-                                    <div className="container d-flex justify-content-around">
+                            <div className="redes-sociales container d-flex justify-content-around">
                                         <a
-                                            href="https://www.instagram.com/polinagrace/"
+                                            href="https://www.instagram.com/morus.alba.wav/"
                                             target={"_blank"}
                                             rel={"noreferrer"}
                                         >
-                                            <FontAwesomeIcon
-                                                icon="fa-brands fa-instagram"
-                                                size="2x"
-                                                id="icon"
-                                                color="#ff254d"
-                                            />
+                                            <img src={iconoInstagram} width={40} height={40}/>
                                         </a>
                                         <a
-                                            href="https://open.spotify.com/artist/1NHTQwuk3e6uBGMd4V74ug?si=aHsFR3EhQReIvpPazfdijA"
+                                            href="https://open.spotify.com/artist/2TtsYaNj41ilhQDMNuAb5w?si=sG6Tai5xTbqaq9m0VOA_dw"
                                             target={"_blank"}
                                             rel={"noreferrer"}
                                         >
-                                            <FontAwesomeIcon
-                                                icon="fa-brands fa-spotify"
-                                                size="2x"
-                                                id="icon"
-                                                color="#ff254d"
-                                            />
+                                            <img src={iconoSpotify} width={40} height={40}/>
                                         </a>
-                                    </div>
-                                </div>
-                            )}
+                            </div>
                         </div>
                     </div>
                     {/*<!-- END Portfolio Item 3 -->*/}
@@ -407,111 +240,22 @@ const Artistas = () => {
                                 alt="..."
                             />
                             <h4 className="m-2 title-artist">Kanela</h4>
-                            {isTabletOrMobile ? (
-                                <>
-                                    <button
-                                        className="btn btn-primary m-4 px-4 py-2"
-                                        data-bs-toggle="collapse"
-                                        href="#artista4"
-                                        aria-expanded="false"
-                                        aria-controls="artista4"
-                                    >
-                                        Ver Más
-                                    </button>
-                                    <ToggleDisplay show={!show}>
-                                        <div
-                                            class="collapse multi-collapse"
-                                            id="artista4"
-                                        >
-                                            <p>
-                                                Su carrera como solista comienza
-                                                editando el disco Espejos
-                                                recibiendo buenas críticas y
-                                                ventas. En 2010, nuevamente le
-                                                toca ser soporte, esta vez del
-                                                artista solista más exitoso del
-                                                mundo en la historia de la
-                                                música popular (según el Libro
-                                                Guiness de los Records), Paul
-                                                McCartney. Este, tras escuchar
-                                                todos las de artistas que tenía
-                                                como opciones soporte para sus
-                                                shows en Argentina en 2010
-                                                decidió quedarse con Ciro.2​
-                                            </p>
-                                            <div className="container d-flex justify-content-center p-5">
-                                                <a
-                                                    href="https://www.instagram.com/kanelaofficial/"
-                                                    target={"_blank"}
-                                                    rel={"noreferrer"}
-                                                >
-                                                    <FontAwesomeIcon
-                                                        icon="fa-brands fa-instagram"
-                                                        size="3x"
-                                                        id="icon"
-                                                        color="#ff254d"
-                                                    />
-                                                </a>
-                                                <a
-                                                    href="https://open.spotify.com/artist/2IqxZH8QxR7KJ0C6JH5i39?si=rTAUBMLIQL-8_C4eLf2fkw"
-                                                    target={"_blank"}
-                                                    rel={"noreferrer"}
-                                                >
-                                                    <FontAwesomeIcon
-                                                        icon="fa-brands fa-spotify"
-                                                        size="3x"
-                                                        id="icon"
-                                                        color="#ff254d"
-                                                    />
-                                                </a>
-                                            </div>
-                                        </div>
-                                    </ToggleDisplay>
-                                </>
-                            ) : (
-                                <div>
-                                    <p>
-                                        Su carrera como solista comienza
-                                        editando el disco Espejos recibiendo
-                                        buenas críticas y ventas. En 2010,
-                                        nuevamente le toca ser soporte, esta vez
-                                        del artista solista más exitoso del
-                                        mundo en la historia de la música
-                                        popular (según el Libro Guiness de los
-                                        Records), Paul McCartney. Este, tras
-                                        escuchar todos las de artistas que tenía
-                                        como opciones soporte para sus shows en
-                                        Argentina en 2010 decidió quedarse con
-                                        Ciro.2​
-                                    </p>
-                                    <div className="container d-flex justify-content-around">
+                            <div className="redes-sociales container d-flex justify-content-around">
                                         <a
-                                            href="https://www.instagram.com/kanelaofficial/"
+                                            href="https://www.instagram.com/morus.alba.wav/"
                                             target={"_blank"}
                                             rel={"noreferrer"}
                                         >
-                                            <FontAwesomeIcon
-                                                icon="fa-brands fa-instagram"
-                                                size="2x"
-                                                id="icon"
-                                                color="#ff254d"
-                                            />
+                                            <img src={iconoInstagram} width={40} height={40}/>
                                         </a>
                                         <a
-                                            href="https://open.spotify.com/artist/2IqxZH8QxR7KJ0C6JH5i39?si=rTAUBMLIQL-8_C4eLf2fkw"
+                                            href="https://open.spotify.com/artist/2TtsYaNj41ilhQDMNuAb5w?si=sG6Tai5xTbqaq9m0VOA_dw"
                                             target={"_blank"}
                                             rel={"noreferrer"}
                                         >
-                                            <FontAwesomeIcon
-                                                icon="fa-brands fa-spotify"
-                                                size="2x"
-                                                id="icon"
-                                                color="#ff254d"
-                                            />
+                                            <img src={iconoSpotify} width={40} height={40}/>
                                         </a>
-                                    </div>
-                                </div>
-                            )}
+                            </div>
                         </div>
                     </div>
                     {/*<!-- END Portfolio Item 4 -->*/}
@@ -524,111 +268,22 @@ const Artistas = () => {
                                 alt="..."
                             />
                             <h4 className="m-2 title-artist">The Color Fools</h4>
-                            {isTabletOrMobile ? (
-                                <>
-                                    <button
-                                        className="btn btn-primary m-4 px-4 py-2"
-                                        data-bs-toggle="collapse"
-                                        href="#artista5"
-                                        aria-expanded="false"
-                                        aria-controls="artista5"
-                                    >
-                                        Ver Más
-                                    </button>
-                                    <ToggleDisplay show={!show}>
-                                        <div
-                                            class="collapse multi-collapse"
-                                            id="artista5"
-                                        >
-                                            <p>
-                                                Su carrera como solista comienza
-                                                editando el disco Espejos
-                                                recibiendo buenas críticas y
-                                                ventas. En 2010, nuevamente le
-                                                toca ser soporte, esta vez del
-                                                artista solista más exitoso del
-                                                mundo en la historia de la
-                                                música popular (según el Libro
-                                                Guiness de los Records), Paul
-                                                McCartney. Este, tras escuchar
-                                                todos las de artistas que tenía
-                                                como opciones soporte para sus
-                                                shows en Argentina en 2010
-                                                decidió quedarse con Ciro.2​
-                                            </p>
-                                            <div className="container d-flex justify-content-center p-5">
-                                                <a
-                                                    href="https://www.instagram.com/thecolourfools/"
-                                                    target={"_blank"}
-                                                    rel={"noreferrer"}
-                                                >
-                                                    <FontAwesomeIcon
-                                                        icon="fa-brands fa-instagram"
-                                                        size="3x"
-                                                        id="icon"
-                                                        color="#ff254d"
-                                                    />
-                                                </a>
-                                                <a
-                                                    href="https://open.spotify.com/artist/5RKatiNTXjc3uN0FhUtlzd?si=Gc2U-lcyRJOaO-VbNlUBDg"
-                                                    target={"_blank"}
-                                                    rel={"noreferrer"}
-                                                >
-                                                    <FontAwesomeIcon
-                                                        icon="fa-brands fa-spotify"
-                                                        size="3x"
-                                                        id="icon"
-                                                        color="#ff254d"
-                                                    />
-                                                </a>
-                                            </div>
-                                        </div>
-                                    </ToggleDisplay>
-                                </>
-                            ) : (
-                                <div>
-                                    <p>
-                                        Su carrera como solista comienza
-                                        editando el disco Espejos recibiendo
-                                        buenas críticas y ventas. En 2010,
-                                        nuevamente le toca ser soporte, esta vez
-                                        del artista solista más exitoso del
-                                        mundo en la historia de la música
-                                        popular (según el Libro Guiness de los
-                                        Records), Paul McCartney. Este, tras
-                                        escuchar todos las de artistas que tenía
-                                        como opciones soporte para sus shows en
-                                        Argentina en 2010 decidió quedarse con
-                                        Ciro.2​
-                                    </p>
-                                    <div className="container d-flex justify-content-around">
+                            <div className="redes-sociales container d-flex justify-content-around">
                                         <a
-                                            href="https://www.instagram.com/thecolourfools/"
+                                            href="https://www.instagram.com/morus.alba.wav/"
                                             target={"_blank"}
                                             rel={"noreferrer"}
                                         >
-                                            <FontAwesomeIcon
-                                                icon="fa-brands fa-instagram"
-                                                size="2x"
-                                                id="icon"
-                                                color="#ff254d"
-                                            />
+                                            <img src={iconoInstagram} width={40} height={40}/>
                                         </a>
                                         <a
-                                            href="https://open.spotify.com/artist/5RKatiNTXjc3uN0FhUtlzd?si=Gc2U-lcyRJOaO-VbNlUBDg"
+                                            href="https://open.spotify.com/artist/2TtsYaNj41ilhQDMNuAb5w?si=sG6Tai5xTbqaq9m0VOA_dw"
                                             target={"_blank"}
                                             rel={"noreferrer"}
                                         >
-                                            <FontAwesomeIcon
-                                                icon="fa-brands fa-spotify"
-                                                size="2x"
-                                                id="icon"
-                                                color="#ff254d"
-                                            />
+                                            <img src={iconoSpotify} width={40} height={40}/>
                                         </a>
-                                    </div>
-                                </div>
-                            )}
+                            </div>
                         </div>
                     </div>
                     {/*<!-- END Portfolio Item 5 -->*/}
