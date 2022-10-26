@@ -21,14 +21,7 @@ const Nav = () => {
                 >
                     =
                 </button>
-
-                <div className="collapse navbar-collapse" id="navbarResponsive">
-                    <ul className="navbar-nav">
-                        <li className="nav-link mx-0 mx-lg-1">
-                            {isTabletOrMobile ? (
-                                <>
-                                    <div className="logo-mobile py-2">
-                                        <img
+                <img
                                             src={logo}
                                             alt={logo}
                                             id="logo-responsive"
@@ -38,7 +31,11 @@ const Nav = () => {
                                                 navigate("/nosotros")
                                             }}
                                         />
-                                    </div>
+                <div className="collapse navbar-collapse" id="navbarResponsive">
+                    <ul className="navbar-nav">
+                        <li className="nav-link mx-0 mx-lg-1">
+                            {isTabletOrMobile ? (
+                                <>
                                     <button
                                         className="nav-link"
                                         onClick={() => {
