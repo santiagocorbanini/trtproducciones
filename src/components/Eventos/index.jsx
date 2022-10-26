@@ -20,13 +20,19 @@ const Eventos = () => {
                                     <div className="lugar-nombre">
                                         Gira españa
                                     </div>
-                                    <img src={iconoLugar} width={30} height={30}/>
+                                    <img src={iconoLugar} width={30} height={30} alt={iconoLugar}/>
                                 </div>
                                 <div className="lugar-div">
                                     <div className="lugar-fecha">
                                         Compr&aacute; tu entrada
                                     </div>
-                                    <img src={iconoTicket} width={30} height={30}/>
+                                    <a
+                                    href="https://sfx.janto.es/"
+                                    target={'_blank'}
+                                    rel={'noreferrer'}
+                                    >
+                                    <img src={iconoTicket} width={30} height={30} alt={iconoTicket}/>
+                                    </a>
                                 </div>
                             </div>
                         </div>

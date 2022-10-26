@@ -22,9 +22,12 @@ const Convocatoria = () => {
                 className="btn btn-primary btn-xl"
                 id="submitConvocatoria"
                 type="submit"
-                /* 
-                https://docs.google.com/forms/d/1aAyUGXDJLOVD8ADqXsVkYU5GgLlrbG1VgjRKr5UA308/edit
-                */ 
+                onClick={() => {
+                    window.open(
+                        "https://docs.google.com/forms/d/1aAyUGXDJLOVD8ADqXsVkYU5GgLlrbG1VgjRKr5UA308/edit",
+                        "_blank"
+                    )
+                }}
             >
                 registro
             </button>
