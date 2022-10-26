@@ -4,8 +4,8 @@ import { useNavigate } from "react-router-dom"
 import { MediaQueries } from "../../const/BreakpointsMediaQueries"
 
 const Nav = () => {
-    const navigate = useNavigate();
-    const { isTabletOrMobile } = MediaQueries();
+    const navigate = useNavigate()
+    const { isTabletOrMobile } = MediaQueries()
     return (
         <nav className="navbar navbar-expand-lg fixed-top navbarcustom">
             <div className="container">
@@ -21,21 +21,35 @@ const Nav = () => {
                 >
                     =
                 </button>
-                
+
                 <div className="collapse navbar-collapse" id="navbarResponsive">
                     <ul className="navbar-nav">
-                    <li className="nav-link mx-0 mx-lg-1">
-                        {isTabletOrMobile ? (
-                                <button
-                                    className="nav-link"
-                                    onClick={() => {
-                                        navigate("/nosotros")
-                                    }}
-                                    data-bs-toggle="collapse"
-                                    data-bs-target="#navbarResponsive"
-                                >
-                                    Nosotros
-                                </button>
+                        <li className="nav-link mx-0 mx-lg-1">
+                            {isTabletOrMobile ? (
+                                <>
+                                    <div className="logo-mobile py-2">
+                                        <img
+                                            src={logo}
+                                            alt={logo}
+                                            id="logo-responsive"
+                                            width={90}
+                                            height={15}
+                                            onClick={() => {
+                                                navigate("/nosotros")
+                                            }}
+                                        />
+                                    </div>
+                                    <button
+                                        className="nav-link"
+                                        onClick={() => {
+                                            navigate("/nosotros")
+                                        }}
+                                        data-bs-toggle="collapse"
+                                        data-bs-target="#navbarResponsive"
+                                    >
+                                        Nosotros
+                                    </button>
+                                </>
                             ) : (
                                 <button
                                     className="nav-link"
@@ -48,7 +62,7 @@ const Nav = () => {
                             )}
                         </li>
                         <li className="nav-link mx-0 mx-lg-1">
-                        {isTabletOrMobile ? (
+                            {isTabletOrMobile ? (
                                 <button
                                     className="nav-link"
                                     onClick={() => {
@@ -71,7 +85,7 @@ const Nav = () => {
                             )}
                         </li>
                         <li className="nav-link mx-0 mx-lg-1">
-                        {isTabletOrMobile ? (
+                            {isTabletOrMobile ? (
                                 <button
                                     className="nav-link"
                                     onClick={() => {
@@ -106,7 +120,7 @@ const Nav = () => {
                             />
                         </div>
                         <li className="nav-link mx-0 mx-lg-1">
-                        {isTabletOrMobile ? (
+                            {isTabletOrMobile ? (
                                 <button
                                     className="nav-link"
                                     onClick={() => {
@@ -152,7 +166,7 @@ const Nav = () => {
                             )}
                         </li>
                         <li className="nav-link mx-0 mx-lg-1">
-                        {isTabletOrMobile ? (
+                            {isTabletOrMobile ? (
                                 <button
                                     className="nav-link"
                                     onClick={() => {
