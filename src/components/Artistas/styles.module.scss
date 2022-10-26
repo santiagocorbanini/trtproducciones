@@ -14,8 +14,7 @@
     transition:120ms ease-in;
 }
 .redes-sociales {
-    width: 50%;
-    width: 80%;
+    width: 65%;
     margin-bottom: 20px;
 }
 
@@ -26,4 +25,7 @@
     .img-fluid {
         max-width: 60%;
     }
+}
+a:hover {
+    opacity: 70%;
 }

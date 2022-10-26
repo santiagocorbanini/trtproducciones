@@ -19,7 +19,7 @@ const Convocatoria = () => {
                 </p>
             </div>
             <button
-                className="btn btn-primary btn-xl"
+                className="btn btn-convocatoria btn-xl"
                 id="submitConvocatoria"
                 type="submit"
                 onClick={() => {
@@ -29,7 +29,7 @@ const Convocatoria = () => {
                     )
                 }}
             >
-                registro
+                link de registro
             </button>
         </section>
     )

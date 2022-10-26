@@ -54,7 +54,7 @@ const Artistas = () => {
                                 alt="..."
                             />
                             <h4 className="m-2 title-artist">
-                                Valentina Olguin
+                                Valentina<br />Olguin
                             </h4>
                             <div className="redes-sociales container d-flex justify-content-around">
                             
@@ -183,7 +183,7 @@ const Artistas = () => {
                                 width={400}
                                 alt="..."
                             />
-                            <h4 className="m-2 title-artist">Morus Alba</h4>
+                            <h4 className="m-2 title-artist">Morus<br />Alba</h4>
                             <div className="redes-sociales container d-flex justify-content-around">
                                         <a
                                             href="https://www.instagram.com/morus.alba.wav/"
@@ -211,7 +211,7 @@ const Artistas = () => {
                                 src={PolinaGrace}
                                 alt="..."
                             />
-                            <h4 className="m-2 title-artist">Polina Grace</h4>
+                            <h4 className="m-2 title-artist">Polina<br />Grace</h4>
                             <div className="redes-sociales container d-flex justify-content-around">
                                         <a
                                             href="https://www.instagram.com/morus.alba.wav/"
