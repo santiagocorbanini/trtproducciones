@@ -51,7 +51,14 @@
     flex-direction: row;
     align-items: center;
 }
-
+a {
+    width: 100%;
+    display: contents;
+    
+}
+.lugar-div-entrada:hover {
+    opacity: 70%;
+}
 @media only screen and (max-width:992px){
     .meses {
         display: flex;
