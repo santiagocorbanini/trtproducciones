@@ -7,7 +7,7 @@ const Trabajos = () => {
     return (
         <section className="page-section" id="trabajos">
         <div className="container d-flex align-items-center justify-content-center mb-4">
-            <h2>En construcción</h2>
+            <h2>En construcci&oacute;n</h2>
         </div>
         {/*
         <div className="container-body container-fluid brands">

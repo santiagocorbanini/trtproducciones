@@ -24,7 +24,7 @@ const Eventos = () => {
                                 </div>
                                 <div className="lugar-div">
                                     <div className="lugar-fecha">
-                                        Compra tu entrada
+                                        Compr&aacute; tu entrada
                                     </div>
                                     <img src={iconoTicket} width={30} height={30}/>
                                 </div>

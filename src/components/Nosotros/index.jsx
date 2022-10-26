@@ -38,6 +38,7 @@ export const Nosotros = () => {
 
                 <div className="row justify-content-center">
                     <div class="col-lg-3">
+                        {/*}
                         <img
                                 src={cara1}
                                 alt={cara1}
@@ -45,6 +46,7 @@ export const Nosotros = () => {
                                 width={140}
                                 height={140}
                         />
+                        */}
                         <h4>Agustin</h4>
                         <p>
                             Fue conductor y productor de la radio, como así
@@ -74,6 +76,7 @@ export const Nosotros = () => {
                         <p>agustin@2222agencia.com</p>
                     </div>
                     <div class="col-lg-3">
+                        {/*
                         <img
                                 src={cara1}
                                 alt={cara1}
@@ -81,6 +84,7 @@ export const Nosotros = () => {
                                 width={140}
                                 height={140}
                         />
+                        */}
                         <h4>Luciano</h4>
                         <p>
                             Experto en management de artistas, con 8 años de
@@ -130,6 +134,7 @@ export const Nosotros = () => {
                         <p>luciano@2222agencia.com</p>
                     </div>
                     <div class="col-lg-3">
+                        {/*
                         <img
                                 src={cara1}
                                 alt={cara1}
@@ -137,6 +142,7 @@ export const Nosotros = () => {
                                 width={140}
                                 height={140}
                         />
+                            */}
 
                         <h4>Jonathan (advisor)</h4>
                         <p>
