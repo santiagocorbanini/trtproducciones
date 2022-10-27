@@ -1,6 +1,7 @@
 import React, { useRef } from "react"
 import emailjs from "@emailjs/browser"
 import swal from "sweetalert"
+import iconoInstagram from "../../assets/img/icono-instagram.svg"
 
 export const ContactUs = () => {
     const form = useRef()
@@ -94,10 +95,33 @@ export const ContactUs = () => {
     return (
         <section className="page-section" id="contact">
             <div className="container">
-                {/*<!-- Contact Section Heading-->*/}
-                <h2 className="page-section-heading text-center mb-0">
-                    Contacto
-                </h2>
+                {/*<!-- reeemplazar con iconos con fondo blanco y sus hrefs -->*/}
+                <div className="redes-contact container d-flex justify-content-center">
+                    <a href="#" target={"_blank"} rel={"noreferrer"}>
+                        <img
+                            src={iconoInstagram}
+                            width={40}
+                            height={40}
+                            alt={iconoInstagram}
+                        />
+                    </a>
+                    <a href="#" target={"_blank"} rel={"noreferrer"}>
+                        <img
+                            src={iconoInstagram}
+                            width={40}
+                            height={40}
+                            alt={iconoInstagram}
+                        />
+                    </a>
+                    <a href="#" target={"_blank"} rel={"noreferrer"}>
+                        <img
+                            src={iconoInstagram}
+                            width={40}
+                            height={40}
+                            alt={iconoInstagram}
+                        />
+                    </a>
+                </div>
 
                 {/*<!-- Contact Section Form-->*/}
                 <div className="row justify-content-center">
@@ -124,7 +148,7 @@ export const ContactUs = () => {
                                     placeholder="Enter your name..."
                                     data-sb-validations="required"
                                 />
-                                <label htmlFor="name">Nombre</label>
+                                <label htmlFor="name">NOMBRE</label>
                                 <div
                                     className="invalid-feedback"
                                     data-sb-feedback="name:required"
@@ -141,9 +165,7 @@ export const ContactUs = () => {
                                     placeholder="name@example.com"
                                     data-sb-validations="required,email"
                                 />
-                                <label htmlFor="email">
-                                    Correo electrónico
-                                </label>
+                                <label htmlFor="email">MAIL</label>
                                 <div
                                     className="invalid-feedback"
                                     data-sb-feedback="email:required"
@@ -158,7 +180,7 @@ export const ContactUs = () => {
                                 </div>
                             </div>
                             {/*<!-- Phone number input-->*/}
-                            <div className="form-floating mb-3">
+                            {/*                             <div className="form-floating mb-3">
                                 <input
                                     className="form-control"
                                     name="telefono"
@@ -173,7 +195,7 @@ export const ContactUs = () => {
                                 >
                                     Un numero telefonico es requerido
                                 </div>
-                            </div>
+                            </div> */}
                             {/*<!-- Message input-->*/}
                             <div className="form-floating mb-3">
                                 <textarea
@@ -183,8 +205,9 @@ export const ContactUs = () => {
                                     defaultValue=""
                                     placeholder="Enter your message here..."
                                     data-sb-validations="required"
+                                    id="text-area"
                                 ></textarea>
-                                <label htmlFor="message">Mensaje</label>
+                                <label htmlFor="message">MENSAJE</label>
                                 <div
                                     className="invalid-feedback"
                                     data-sb-feedback="message:required"
@@ -218,13 +241,15 @@ export const ContactUs = () => {
                                 </div>
                             </div>
                             {/*<!-- Submit Button-->*/}
-                            <button
-                                className="btn btn-primary btn-xl"
-                                id="submitButton"
-                                type="submit"
-                            >
-                                Enviar
-                            </button>
+                            <div>
+                                <button
+                                    className="btn btn-primary btn-xl"
+                                    id="submitButton"
+                                    type="submit"
+                                >
+                                    ENVIAR
+                                </button>
+                            </div>
                         </form>
                     </div>
                 </div>

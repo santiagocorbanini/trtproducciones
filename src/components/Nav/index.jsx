@@ -22,15 +22,15 @@ const Nav = () => {
                     =
                 </button>
                 <img
-                                            src={logo}
-                                            alt={logo}
-                                            id="logo-responsive"
-                                            width={90}
-                                            height={15}
-                                            onClick={() => {
-                                                navigate("/nosotros")
-                                            }}
-                                        />
+                    src={logo}
+                    alt={logo}
+                    id="logo-responsive"
+                    width={90}
+                    height={15}
+                    onClick={() => {
+                        navigate("/nosotros")
+                    }}
+                />
                 <div className="collapse navbar-collapse" id="navbarResponsive">
                     <ul className="navbar-nav">
                         <li className="nav-link mx-0 mx-lg-1">
@@ -185,16 +185,30 @@ const Nav = () => {
                                 </button>
                             )}
                         </li>
-                        {/*                         <li className="nav-item mx-0 mx-lg-1 ms-auto">
-                            <button
-                                className="nav-link py-3 px-0"
-                                onClick={() => {
-                                    navigate("/contacto")
-                                }}
-                            >
-                                Contacto
-                            </button>
-                        </li> */}
+                        <li className="nav-link mx-0 mx-lg-1">
+                            {isTabletOrMobile ? (
+                                <button
+                                    className="nav-link"
+                                    onClick={() => {
+                                        navigate("/contacto")
+                                    }}
+                                    data-bs-toggle="collapse"
+                                    data-bs-target="#navbarResponsive"
+                                >
+                                    Contacto
+                                </button>
+                            ) : (
+                                <button
+                                    className="nav-link"
+                                    id="contact-buton"
+                                    onClick={() => {
+                                        navigate("/contacto")
+                                    }}
+                                >
+                                    Contacto
+                                </button>
+                            )}
+                        </li>
                     </ul>
                 </div>
             </div>

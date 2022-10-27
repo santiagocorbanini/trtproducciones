@@ -1,0 +1,36 @@
+.form-control {
+    padding-bottom: 10px!important;
+}
+
+#contactForm {
+    color: black;
+}
+
+#text-area {
+    min-height: 200px;
+}
+
+#submitButton {
+    width: 100%;
+    font-weight: bold;
+    border: none;
+    background: none;
+    outline: none;
+    color: black;
+    mix-blend-mode: screen;
+}
+
+.btn-primary:hover {
+    opacity: 90%;
+    transition:220ms ease-in;
+}
+
+#contact {
+    background: rgb(255,36,202);
+    background: linear-gradient(144deg, rgba(255,36,202,1) 0%, rgba(255,36,121,1) 49%, rgba(255,36,178,1) 100%);
+}
+
+.redes-contact {
+    width: 200px;
+    margin-bottom: 50px;
+}
