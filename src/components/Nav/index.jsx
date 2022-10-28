@@ -116,6 +116,7 @@ const Nav = () => {
                                 }}
                             />
                         </div>
+                        {/*
                         <li className="nav-link mx-0 mx-lg-1">
                             {isTabletOrMobile ? (
                                 <button
@@ -139,6 +140,7 @@ const Nav = () => {
                                 </button>
                             )}
                         </li>
+                        */}
                         <li className="nav-link mx-0 mx-lg-1">
                             {isTabletOrMobile ? (
                                 <button

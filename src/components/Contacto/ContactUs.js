@@ -1,7 +1,10 @@
 import React, { useRef } from "react"
 import emailjs from "@emailjs/browser"
 import swal from "sweetalert"
-import iconoInstagram from "../../assets/img/icono-instagram.svg"
+import iconoInstagram from "../../assets/img/icono-instagram-contacto.svg"
+import iconoSpotify from "../../assets/img/icono-spotify-contacto.svg"
+import iconoYoutube from "../../assets/img/icono-youtube-contacto.svg"
+
 
 export const ContactUs = () => {
     const form = useRef()
@@ -97,7 +100,7 @@ export const ContactUs = () => {
             <div className="container">
                 {/*<!-- reeemplazar con iconos con fondo blanco y sus hrefs -->*/}
                 <div className="redes-contact container d-flex justify-content-center">
-                    <a href="#" target={"_blank"} rel={"noreferrer"}>
+                    <a href="https://www.instagram.com/2222agencia/" target={"_blank"} rel={"noreferrer"}>
                         <img
                             src={iconoInstagram}
                             width={40}
@@ -105,20 +108,20 @@ export const ContactUs = () => {
                             alt={iconoInstagram}
                         />
                     </a>
-                    <a href="#" target={"_blank"} rel={"noreferrer"}>
+                    <a href="https://www.instagram.com/2222agencia/" target={"_blank"} rel={"noreferrer"}>
                         <img
-                            src={iconoInstagram}
+                            src={iconoSpotify}
                             width={40}
                             height={40}
-                            alt={iconoInstagram}
+                            alt={iconoSpotify}
                         />
                     </a>
-                    <a href="#" target={"_blank"} rel={"noreferrer"}>
+                    <a href="https://www.instagram.com/2222agencia/" target={"_blank"} rel={"noreferrer"}>
                         <img
-                            src={iconoInstagram}
+                            src={iconoYoutube}
                             width={40}
                             height={40}
-                            alt={iconoInstagram}
+                            alt={iconoYoutube}
                         />
                     </a>
                 </div>

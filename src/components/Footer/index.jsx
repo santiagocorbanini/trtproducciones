@@ -29,7 +29,7 @@ const Footer = () => {
                         >
                             <img src={logoPampa} alt="Pampacode" width={102} />
                         </a>
-                        <p className="lead mb-0">
+                        <p className="lead mb1">
                             © Todos los derechos reservados -{" "}
                             {new Date().getFullYear()}.
                         </p>
@@ -59,7 +59,7 @@ const Footer = () => {
                     {/*<!-- Footer Nosotros Text-->*/}
                     <div className="col-lg-6">
                         <img src={newLogo} alt="2222 Agencia" width={100} />
-                        <p className="lead mb-0">Barcelona, España.</p>
+                        <p className="lead mb1">Barcelona, España.</p>
                         <a
                             className="btn btn-outline-light btn-social mx-1 mt-3"
                             href="https://www.instagram.com/2222agencia/"

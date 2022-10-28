@@ -1,4 +1,6 @@
-import cara1 from "../../assets/img/nosotros1.png"
+import somos1 from "../../assets/img/somos3.png"
+import somos2 from "../../assets/img/somos2.png"
+import somos3 from "../../assets/img/somos1.png"
 
 import React from "react"
 
@@ -38,15 +40,15 @@ export const Nosotros = () => {
 
                 <div className="row justify-content-center">
                     <div class="col-lg-3">
-                        {/*}
+                        
                         <img
-                                src={cara1}
-                                alt={cara1}
-                                id="cara1"
+                                src={somos1}
+                                alt={somos1}
+                                id="somos1"
                                 width={140}
                                 height={140}
                         />
-                        */}
+                        
                         <h4>Agustin</h4>
                         <p>
                             Fue conductor y productor de la radio, como así
@@ -76,15 +78,15 @@ export const Nosotros = () => {
                         <p>agustin@2222agencia.com</p>
                     </div>
                     <div class="col-lg-3">
-                        {/*
+
                         <img
-                                src={cara1}
-                                alt={cara1}
-                                id="cara1"
+                                src={somos2}
+                                alt={somos2}
+                                id="somos2"
                                 width={140}
                                 height={140}
                         />
-                        */}
+
                         <h4>Luciano</h4>
                         <p>
                             Experto en management de artistas, con 8 años de
@@ -134,15 +136,15 @@ export const Nosotros = () => {
                         <p>luciano@2222agencia.com</p>
                     </div>
                     <div class="col-lg-3">
-                        {/*
+
                         <img
-                                src={cara1}
-                                alt={cara1}
-                                id="cara1"
+                                src={somos3}
+                                alt={somos3}
+                                id="somos3"
                                 width={140}
                                 height={140}
                         />
-                            */}
+
 
                         <h4>Jonathan (advisor)</h4>
                         <p>

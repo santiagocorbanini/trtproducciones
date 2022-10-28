@@ -1,5 +1,10 @@
 .form-control {
     padding-bottom: 10px!important;
+    background-color: transparent;
+    border: 1px solid white;
+}
+.form-control:focus {
+    background: transparent;
 }
 
 #contactForm {
@@ -26,11 +31,13 @@
 }
 
 #contact {
-    background: rgb(255,36,202);
-    background: linear-gradient(144deg, rgba(255,36,202,1) 0%, rgba(255,36,121,1) 49%, rgba(255,36,178,1) 100%);
+    background-image: url("../../assets/img/fondo-contacto.svg");;
 }
 
 .redes-contact {
     width: 200px;
     margin-bottom: 50px;
+}
+label {  
+    color: white;
 }
