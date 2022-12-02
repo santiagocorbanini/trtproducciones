@@ -1,27 +1,34 @@
-import About from "./components/About/About";
-import Contact from "./components/Contact/Contact";
-import Nav from "./components/Nav/Nav";
-import Footer from "./components/Footer/Footer";
-import Artists from "./components/Artista/Artists";
-import Events from "./components/Evento/Events";
-import Services from "./components/Servicio/Services";
-import Convocatoria from "./components/Convocatoria";
-import Trabajos from "./Trabajos";
+import "bootstrap/dist/css/bootstrap.css"
+import "bootstrap/dist/js/bootstrap"
+import "./scss/main.scss"
+import { Routes, Route } from "react-router-dom"
+import Nav from "./components/Nav"
+import Eventos from "./components/Eventos"
+import Artistas from "./components/Artistas"
+import Servicios from "./components/Servicios"
+import Convocatoria from "./components/Convocatoria"
+import Trabajos from "./components/Trabajos"
+import Nosotros from "./components/Nosotros"
+import Contacto from "./components/Contacto"
+import Footer from "./components/Footer"
 
 const App = () => {
-  return (
-    <>
-    <Nav/>
-    <Events />
-    <Artists />
-    <About />
-    <Services />
-    <Convocatoria/>
-    <Trabajos/>
-    <Contact />
-    <Footer />
-    </>
-  );
-};
+    return (
+        <>
+            <Nav />
+            <Routes>
+                <Route index path="" element={<Nosotros />} />
+                <Route path="eventos" element={<Eventos />} />
+                <Route path="artistas" element={<Artistas />} />
+                <Route path="servicios" element={<Servicios />} />
+                <Route path="convocatoria" element={<Convocatoria />} />
+                <Route path="trabajos" element={<Trabajos />} />
+                <Route path="nosotros" element={<Nosotros />} />
+                <Route path="contacto" element={<Contacto />} />
+            </Routes>
+            <Footer />
+        </>
+    )
+}
 
-export default App;
+export default App
